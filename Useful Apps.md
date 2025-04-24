@@ -1,8 +1,9 @@
 #Freemium 
-• PDF Reader - Moon Reader  
-• Habit Tracker - HabitNow  
-• Netflix Alternative - OnStream (Free)  
-• Language Learning - Duolingo  
+
+- PDF Reader - Moon Reader
+- Habit Tracker - HabitNow
+- Netflix Alternative - OnStream (Free)
+- Language Learning - Duolingo
   
 #OpenSource
 • File share - LocalSend  
