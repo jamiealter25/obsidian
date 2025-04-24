@@ -1,14 +1,27 @@
+Prerequisites
 - Install VsCode
 - Install Git
-	- check 'Additional Icons'
-	- select 'Override the default branch'
-- Make an Account on GitHub
-	- make a repository
-- Open Git Bash
-	- Check `git --version`
+- Create GitHub Account
+
+#Steps
+1) Create a folder in local machine
+2) Paste your files inside the folder (don't leave folder empty)
+3) Create a repo in GitHub
+4) 
+
+
+
+
+- Install Git
+	- check 'Additional Icons' while install
+	- select 'Override the default branch' while install
+	- open git bash and check `git --version`
 	- assign global username `git config --global user.name "My Name"`
 	- assign global email `git config --global user.email "whatever@mail.com"`
 	- check assigned configuration `git config --list`
+
+
+
 - Open VsCode terminal
 	- Check `git --version`
 	- If doesn't work then try [[⚠️ Issues & Solutions]]
