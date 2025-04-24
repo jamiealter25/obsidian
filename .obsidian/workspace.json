@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Useful Apps.md",
+                "file": "Obsidian Git Sync.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Useful Apps"
+              "title": "Obsidian Git Sync"
             }
           }
         ]
@@ -171,11 +171,11 @@
   },
   "active": "42b2cb17a12c7bed",
   "lastOpenFiles": [
+    "Useful Apps.md",
     "Obsidian Git Sync.md",
     "Git Process.md",
     "Git & Github/🧾 Cheat Sheet.md",
     "Git & Github/⚠️ Issues & Solutions.md",
-    "Useful Apps.md",
     "Git & Github/🧠 Common Words.md",
     "Untitled.canvas",
     "Git & Github"
