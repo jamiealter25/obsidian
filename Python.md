@@ -62,6 +62,15 @@
 - Whenever the next line is indented, the current line must end with `:`
 - use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
 
-### Module 7 -  If....Else
-- It basically sets rule `if` this then that `else` that.
-- Use `if` & `else` for two arguemnts
+### Module 7 -  If....Else (conditional statements)
+- It basically means If **this** is true, then **do this**, else (if it’s not true), **do something else**.
+- Use `if` & `else` for two arguments.
+- Use `if`, `elif` & `else` for more than two arguments.
+- #example 
+- score = 75
+	if score >= 90:
+	    print("Grade: A")
+	elif score >= 75:
+	    print("Grade: B")
+	else:
+	    print("Grade: C")
