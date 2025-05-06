@@ -1,4 +1,7 @@
 
+### Module 0 - 
+
+
 ### Module 1 - Variables
 - A **variable** is like a **label** or **name** that stores a value in memory.
 - Think of it like a **container** that holds something you can use later.
@@ -22,4 +25,9 @@
 	- `-`  --> Subtraction  `5 - 2 = 3`
 	- `*`  --> Multiplication `5 * 5 = 25`
 	- `/`  --> Division `25 / 5 = 5`
-	
+### Module 4 - User Input
+- **User input** lets your program **ask the user** to type something when it runs.
+- This makes your code **interactive**.
+- Whatever the user types is taken in as a **string**, so if you need numbers, you often convert it as below.
+	- #example 
+	- `weight = float(input("Enter your weight in kg: "))`
