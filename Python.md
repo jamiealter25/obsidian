@@ -49,3 +49,12 @@
 - Whatever the user types is taken in as a **string**, so if you need numbers, you often convert it as below.
 	- #example 
 	- `weight = float(input("Enter your weight in kg: "))`
+
+### Module 5 - Comment
+- Use the `#` symbol at the beginning of a line to make it a comment about code
+	- #example 
+	- `# this is a comment`
+
+### Module 6 - Use of colon (:)
+- Whenever the next line is indented, the current line must end with `:`
+- 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python for Beginners.md",
-                "mode": "preview",
+                "file": "Python.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python for Beginners"
+              "title": "Python"
             }
           }
         ]
@@ -173,7 +173,7 @@
   "active": "c374ebf433b2ce34",
   "lastOpenFiles": [
     "Git & Github/VsCode Git Sync.md",
-    "Python for Beginners.md",
+    "Python.md",
     "Git & Github/Obsidian-VScode Git Sync Guide.md",
     "Useful Apps.md",
     "Git & Github/⚠️ Issues & Solutions.md",
