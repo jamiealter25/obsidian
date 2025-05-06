@@ -14,7 +14,8 @@
 	- Here, `name` is the **variable**, and `"Khalid"` is the **value** (a string) assigned to it using `=`.
 	- to print this run `print(name)`
 	- to print this with a message run `print("Hi," + name)`
-	- to print this with a message run `print(f"Hello, {name}")`
+	- or `print("Hi,",name)`
+	- or `print(f"Hello, {name}")`
 	- The `f` before the string means it's a **formatted string**, allowing you to include the value of `name` inside the message.
 
 ### Module 2 - Data Types
