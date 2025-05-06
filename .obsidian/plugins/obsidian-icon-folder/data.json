@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiPython",
       "SiGit",
       "SiVisualstudiocode",
       "SiObsidian",
-      "SiAndroid",
-      "SiGithub"
+      "SiAndroid"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "Git & Github": "SiGithub",
   "Useful Apps.md": "SiAndroid",
   "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode",
-  "Git & Github/Obsidian-VScode Git Sync.md": "SiGit"
+  "Git & Github/Obsidian-VScode Git Sync.md": "SiGit",
+  "Python for Beginners.md": "SiPython"
 }
