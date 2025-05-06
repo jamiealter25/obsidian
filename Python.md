@@ -1,4 +1,7 @@
 
+### Module 00 - Syntax
+- **Syntax** is the set of **rules** that define **how you should write code** so that Python can understand and run it correctly.
+
 ### Module 0 - Print
 - Use `print()` to **show messages** or **results** on the screen.
 - Whatever you put inside `"` or `'` will be shown **exactly as it is**.
@@ -20,7 +23,7 @@
 
 ### Module 2 - Data Types
 - When you give a value to Python, it has a **type** — it helps Python understand what the value is and how to treat it.
-- we'll see how to assign Data Types in 'Module 0 - User Input'
+- we'll see how to assign Data Types in '**Module 4 - User Input**'
 	- #example 
 	- `name = "Khalid"` --> Text  # str  (String)
 	- `age = 25` --> Whole numbers  # int (short for integer)
@@ -57,4 +60,8 @@
 
 ### Module 6 - Use of colon (:)
 - Whenever the next line is indented, the current line must end with `:`
-- 
+- use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
+
+### Module 7 -  If....Else
+- It basically sets rule `if` this then that `else` that.
+- Use `if` & `else` for two arguemnts
