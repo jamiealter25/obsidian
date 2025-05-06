@@ -1,6 +1,10 @@
 
-### Module 0 - 
-
+### Module 0 - Print
+- Use `print()` to **show messages** or **results** on the screen.
+- Whatever you put inside `"` or `'` will be shown **exactly as it is**.
+	- #example 
+	- `print("Hello World")`
+	- `" "` is used to show the exact text that you gave
 
 ### Module 1 - Variables
 - A **variable** is like a **label** or **name** that stores a value in memory.
@@ -8,6 +12,10 @@
 	- #example
 	- `name = "Khalid"`
 	- Here, `name` is the **variable**, and `"Khalid"` is the **value** (a string) assigned to it using `=`.
+	- to print this run `print(name)`
+	- to print this with a message run `print("Hi," + name)`
+	- to print this with a message run `print(f"Hello, {name}")`
+	- The `f` before the string means it's a **formatted string**, allowing you to include the value of `name` inside the message.
 
 ### Module 2 - Data Types
 - When you give a value to Python, it has a **type** — it helps Python understand what the value is and how to treat it.
