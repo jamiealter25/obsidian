@@ -8,11 +8,18 @@
 
 ### Module 2 - Data Types
 - When you give a value to Python, it has a **type** — it helps Python understand what the value is and how to treat it.
+- we'll see how to assign Data Types in 'Module 0 - User Input'
 	- #example 
-	- `name = "Khalid"` --> Text                           # str  (String)
-	- `age = 25` --> Whole numbers        # int (short for integer)
-	- `price = 10.25`--> Decimal numbers      # float (short for floating-point number)
-	- `is_active = True`-->True or False values   # bool (short for boolean)
+	- `name = "Khalid"` --> Text  # str  (String)
+	- `age = 25` --> Whole numbers  # int (short for integer)
+	- `price = 10.25`--> Decimal numbers  # float (short for floating-point number)
+	- `is_active = True`-->True or False values  # bool (short for boolean)
 
 ### Module 3 - Operators
-
+- operators are basically the signs that you use to do math
+	- #example 
+	- `+`  --> Addition `2 + 2 = 4`
+	- `-`  --> Subtraction  `5 - 2 = 3`
+	- `*`  --> Multiplication `5 * 5 = 25`
+	- `/`  --> Division `25 / 5 = 5`
+	
