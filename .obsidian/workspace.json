@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git & Github/VsCode Git Sync.md",
-                "mode": "source",
+                "file": "Git & Github/Obsidian-VScode Git Sync.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VsCode Git Sync"
+              "title": "Obsidian-VScode Git Sync"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -172,8 +171,8 @@
   },
   "active": "42b2cb17a12c7bed",
   "lastOpenFiles": [
-    "Git & Github/Obsidian Git Sync.md",
     "Git & Github/VsCode Git Sync.md",
+    "Git & Github/Obsidian-VScode Git Sync.md",
     "Useful Apps.md",
     "Git & Github/🧾 Cheat Sheet.md",
     "Git & Github/⚠️ Issues & Solutions.md",

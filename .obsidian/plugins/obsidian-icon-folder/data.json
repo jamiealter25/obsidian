@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGit",
       "SiVisualstudiocode",
       "SiObsidian",
       "SiAndroid",
-      "SiGithub",
-      "FabAndroid"
+      "SiGithub"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,6 +36,6 @@
   },
   "Git & Github": "SiGithub",
   "Useful Apps.md": "SiAndroid",
-  "Git & Github/Obsidian Git Sync.md": "SiObsidian",
-  "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode"
+  "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode",
+  "Git & Github/Obsidian-VScode Git Sync.md": "SiGit"
 }
