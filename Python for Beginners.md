@@ -34,6 +34,10 @@
 	- `-`  --> Subtraction  `5 - 2 = 3`
 	- `*`  --> Multiplication `5 * 5 = 25`
 	- `/`  --> Division `25 / 5 = 5`
+	- `**` --> Exponent `2 ** 3 = 8`
+	- `%`  --> Modulus/Remainder `22 % 8 = 6`
+	- `//` --> Integer division `22 // 8 = 2`
+
 ### Module 4 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
 - This makes your code **interactive**.
