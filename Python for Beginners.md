@@ -30,6 +30,7 @@
 ### Module 3 - Operators
 - operators are basically the signs that you use to do math
 	- #example 
+	
 	- `+`  --> Addition `2 + 2 = 4`
 	- `-`  --> Subtraction  `5 - 2 = 3`
 	- `*`  --> Multiplication `5 * 5 = 25`
@@ -37,6 +38,12 @@
 	- `**` --> Exponent `2 ** 3 = 8`
 	- `%`  --> Modulus/Remainder `22 % 8 = 6`
 	- `//` --> Integer division `22 // 8 = 2`
+- Comparison Operators
+	- `==` --> Equal to `5 == 5`
+	- `!=` --> Not equal to `5 != 3`
+	- |   |   |   |   |
+|---|---|---|---|
+|`>=`|Greater or equal|`5 >= 5`|`True`|
 
 ### Module 4 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
