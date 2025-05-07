@@ -88,16 +88,17 @@
 		while count <= 5:
 	    print(count)
 	    count = count + 1
+	
 - `for` loops --> Used when you **already know** how many times to loop.
 	- #example 
 	- for number in range(1, 6):
 	    print(number)
 
 ### Module 9 - List & Range
-- `list` --> stores **many items** in one place using `[]`
-- use to assign variables
+- `list` --> A **list is a value** that stores **many items** in one place using `[]`
 	- #example 
 	- `fruits = ["apple", "banana", "cherry"]`
+	
 - `range()` --> gives you a list of numbers **in order**
 - use with `for` loops
 	- #example 
