@@ -29,6 +29,7 @@
 	- `age = 25` --> Whole numbers  # int (short for integer)
 	- `price = 10.25`--> Decimal numbers  # float (short for floating-point number)
 	- `is_active = True`-->True or False values  # bool (short for boolean)
+- Don't forget quotes `" "` on strings.
 
 ### Module 3 - Operators
 - operators are basically the signs that you use to do math
@@ -46,12 +47,10 @@
 	- `>=` --> Greater or equal `8 >= 5`
 	- `<=` --> Less or equal `3 <= 8`
 - Assignment Operators
-	- |Long way|Short way|What it means|
-|---|---|---|
-|`count = count + 1`|`count += 1`|Add 1 to count|
-|`x = x - 2`|`x -= 2`|Subtract 2 from x|
-|`total = total * 3`|`total *= 3`|Multiply total by 3|
-|`score = score / 2`|`score /= 2`|Divide score by 2|
+	- `+=` --> `count += 1` (instead of `count = count + 1`)
+	- `-=` --> `x -= 2` (instead of `x = x - 2`)
+	- `*=` --> `total *= 3` (instead of `total = total * 3`)
+	- `/=` --> `score /= 2` (instead of `score = score / 2`)
 
 ### Module 4 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
