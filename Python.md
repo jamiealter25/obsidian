@@ -1,15 +1,20 @@
 
-### Module 00 - Syntax
+### Module 0 - Syntax
 - **Syntax** is the set of **rules** that define **how you should write code** so that Python can understand and run it correctly.
 
-### Module 0 - Print
+### Module 1 - Comment
+- Use the `#` symbol at the beginning of a line to make it a comment about code
+	- #example 
+	- `# this is a comment`
+
+### Module 2 - Print
 - Use `print()` to **show messages** or **results** on the screen.
 - Whatever you put inside `"` or `'` will be shown **exactly as it is**.
 	- #example 
 	- `print("Hello World")`
 	- `" "` is used to show the exact text that you gave
 
-### Module 1 - Variables
+### Module 3 - Variables
 - A **variable** is like a **label** or **name** that stores a value in memory.
 - Think of it like a **container** that holds something you can use later.
 	- #example
@@ -21,7 +26,7 @@
 	- or `print(f"Hello, {name}")`
 	- The `f` before the string means it's a **formatted string**, allowing you to include the value of `name` inside the message.
 
-### Module 2 - Data Types
+### Module 4 - Data Types
 - When you give a value to Python, it has a **type** — it helps Python understand what the value is and how to treat it.
 - we'll see how to assign Data Types in '**Module 4 - User Input**'
 	- #example 
@@ -31,7 +36,7 @@
 	- `is_active = True`-->True or False values  # bool (short for boolean)
 - Don't forget quotes `" "` on strings.
 
-### Module 3 - Operators
+### Module 5 - Operators
 - operators are basically the signs that you use to do math
 	- #example 
 	- `+`  --> Addition `2 + 2 = 4`
@@ -52,19 +57,14 @@
 	- `*=` --> `total *= 3` (instead of `total = total * 3`)
 	- `/=` --> `score /= 2` (instead of `score = score / 2`)
 
-### Module 4 - User Input
+### Module 6 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
 - This makes your code **interactive**.
 - Whatever the user types is taken in as a **string**, so if you need numbers, you often convert it as below.
 	- #example 
 	- `weight = float(input("Enter your weight in kg: "))`
 
-### Module 5 - Comment
-- Use the `#` symbol at the beginning of a line to make it a comment about code
-	- #example 
-	- `# this is a comment`
-
-### Module 6 - Use of colon (:)
+### Module 7 - Use of colon (:)
 - Whenever the next line is indented, the current line must end with `:`
 - use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
 
@@ -94,11 +94,18 @@
 	- for number in range(1, 6):
 	    print(number)
 
-### Module 9 - List & Range
-- `list` --> A **list is a value** that stores **many items** in one place using `[]`
+### Module 9 - List, Tuple & Range
+- `list` --> A **list is a value** that stores **many items** in one place using `[ ]` square brackets
+- `[ ]` means changeable/ mutable, so `list` is mutable
 	- #example 
 	- `fruits = ["apple", "banana", "cherry"]`
-	
+	- `my_list = [1, 2, 3]`
+
+- `tuple` --> A **list is a value** that stores **many items** in one place using `()` parenthesis
+- `( )` means unchangeable/ immutable, so `tuple` is a immutable list
+	- #example 
+	- `my_tuple = (1, 2, 3)`
+
 - `range()` --> gives you a list of numbers **in order**
 - use with `for` loops
 	- #example 
