@@ -48,23 +48,35 @@
 ### Module 5 - Operators
 - operators are basically the signs that you use to do math
 	- #example 
-	- `+`  --> Addition `2 + 2 = 4`
-	- `-`  --> Subtraction  `5 - 2 = 3`
-	- `*`  --> Multiplication `5 * 5 = 25`
-	- `/`  --> Division `25 / 5 = 5`
-	- `**` --> Exponent `2 ** 3 = 8`
-	- `%`  --> Modulus/Remainder `22 % 8 = 6`
-	- `//` --> Integer division `22 // 8 = 2`
-- Comparison Operators
-	- `==` --> Equal to `5 == 5`
-	- `!=` --> Not equal to `5 != 3`
-	- `>=` --> Greater or equal `8 >= 5`
-	- `<=` --> Less or equal `3 <= 8`
-- Assignment Operators
-	- `+=` --> `count += 1` (instead of `count = count + 1`)
-	- `-=` --> `x -= 2` (instead of `x = x - 2`)
-	- `*=` --> `total *= 3` (instead of `total = total * 3`)
-	- `/=` --> `score /= 2` (instead of `score = score / 2`)
+
+| **Operator** | **Operation Name**  | **Example** | **Result** |
+| ------------ | ------------------- | ----------- | ---------- |
+| `+`          | Addition            | `2 + 2`     | `4`        |
+| `-`          | Subtraction         | `5 - 2`     | `3`        |
+| `*`          | Multiplication      | `5 * 5`     | `25`       |
+| `/`          | Division            | `25 / 5`    | `5.0`      |
+| `**`         | Exponent (Power)    | `2 ** 3`    | `8`        |
+| `%`          | Modulus (Remainder) | `22 % 8`    | `6`        |
+| `//`         | Floor Division      | `22 // 8`   | `2`        |
+
+### Comparison Operators
+
+| **Operator** | **Meaning**           | **Example** |
+| ------------ | --------------------- | ----------- |
+| `==`         | Equal to              | `5 == 5`    |
+| `!=`         | Not equal to          | `5 != 3`    |
+| `>=`         | Greater than or equal | `8 >= 5`    |
+| `<=`         | Less than or equal    | `3 <= 8`    |
+
+### Assignment Operators
+
+| **Operator** | **Usage**    | **Instead of**      |
+| ------------ | ------------ | ------------------- |
+| `+=`         | `count += 1` | `count = count + 1` |
+| `-=`         | `x -= 2`     | `x = x - 2`         |
+| `*=`         | `total *= 3` | `total = total * 3` |
+| `/=`         | `score /= 2` | `score = score / 2` |
+
 ---
 
 ### Module 6 - User Input
@@ -138,13 +150,10 @@
 	- `fruits = ["apple", "banana", "cherry"]`
 	
 	**1. Modify One Item**
-	- `fruits[0] = "orange"`
-	- changes "apple" to "orange"
+	- `fruits[0] = "orange"`  --> (changes "apple" to "orange")
 
 	**2. Modify Multiple Items**
-	- `fruits[1:3] = ["grape", "kiwi"]`
-	- replaces "banana" and "cherry"
+	- `fruits[1:3] = ["grape", "kiwi"]` --> (replaces "banana" and "cherry")
 
 	**3. Replace the Whole List**
-	- `fruits[:] = ["kiwi", "orange", "pear"]`
-	- changes the entire list to the new one
+	- `fruits[:] = ["kiwi", "orange", "pear"]` --> (replaces the whole list with a new one)
