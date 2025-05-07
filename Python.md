@@ -1,11 +1,13 @@
 
 ### Module 0 - Syntax
 - **Syntax** is the set of **rules** that define **how you should write code** so that Python can understand and run it correctly.
+---
 
 ### Module 1 - Comment
 - Use the `#` symbol at the beginning of a line to make it a comment about code
 	- #example 
 	- `# this is a comment`
+---
 
 ### Module 2 - Print
 - Use `print()` to **show messages** or **results** on the screen.
@@ -13,6 +15,7 @@
 	- #example 
 	- `print("Hello World")`
 	- `" "` is used to show the exact text that you gave
+---
 
 ### Module 3 - Variables
 - A **variable** is like a **label** or **name** that stores a value in memory.
@@ -25,16 +28,22 @@
 	- or `print("Hi,",name)`
 	- or `print(f"Hello, {name}")`
 	- The `f` before the string means it's a **formatted string**, allowing you to include the value of `name` inside the message.
+---
 
 ### Module 4 - Data Types
 - When you give a value to Python, it has a **type** — it helps Python understand what the value is and how to treat it.
 - we'll see how to assign Data Types in '**Module 4 - User Input**'
-	- #example 
-	- `name = "Khalid"` --> Text  # str  (String)
-	- `age = 25` --> Whole numbers  # int (short for integer)
-	- `price = 10.25`--> Decimal numbers  # float (short for floating-point number)
-	- `is_active = True`-->True or False values  # bool (short for boolean)
 - Don't forget quotes `" "` on strings.
+	- #example 
+
+| **Code Example**   | **Type** | **Full Form / Description**               |
+| ------------------ | -------- | ----------------------------------------- |
+| `name = "Khalid"`  | `str`    | String — used for text                    |
+| `age = 25`         | `int`    | Integer — used for whole numbers          |
+| `price = 10.25`    | `float`  | Floating-point — used for decimal numbers |
+| `is_active = True` | `bool`   | Boolean — used for True/False values      |
+
+---
 
 ### Module 5 - Operators
 - operators are basically the signs that you use to do math
@@ -56,6 +65,7 @@
 	- `-=` --> `x -= 2` (instead of `x = x - 2`)
 	- `*=` --> `total *= 3` (instead of `total = total * 3`)
 	- `/=` --> `score /= 2` (instead of `score = score / 2`)
+---
 
 ### Module 6 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
@@ -63,10 +73,12 @@
 - Whatever the user types is taken in as a **string**, so if you need numbers, you often convert it as below.
 	- #example 
 	- `weight = float(input("Enter your weight in kg: "))`
+---
 
 ### Module 7 - Use of colon (:)
 - Whenever the next line is indented, the current line must end with `:`
 - use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
+---
 
 ### Module 8 -  If....Else (conditional statements)
 - It basically means If **this** is true, then **do this**, else (if it’s not true), **do something else**.
@@ -80,6 +92,7 @@
 	    print("Grade: B")
 	else:
 	    print("Grade: C")
+---
 
 ### Module 9 - Loops
 - `while` loops --> It keeps running **as long as** the condition stays `True`.
@@ -93,6 +106,7 @@
 	- #example 
 	- for number in range(1, 6):
 	    print(number)
+---
 
 ### Module 10 - List, Tuple & Range
 - **`list`** --> A **list is a collection** of many items stored in one place, it uses **square brackets `[ ]`**.
@@ -111,14 +125,26 @@
 	- #example 
 	- for i in `range(2, 6)`:
 	    print(i)
+---
 
 ### Module 11 - Modify a List
 - Lists are **changeable (mutable)** — you can update the items anytime.
 - You can **modify** one item, **multiple items**, or even **replace the entire list**.
-	- - `[index]` = change one
-		- `[start:end]` = change some
-    
-- `[:]` = change all
+	- `[index]` = change one
+	- `[start:end]` = change some
+	- `[:]` = change all
+
 	- #example 
 	- `fruits = ["apple", "banana", "cherry"]`
-	- 
+	
+	**1. Modify One Item**
+	- `fruits[0] = "orange"`
+	- changes "apple" to "orange"
+
+	**2. Modify Multiple Items**
+	- `fruits[1:3] = ["grape", "kiwi"]`
+	- replaces "banana" and "cherry"
+
+	**3. Replace the Whole List**
+	- `fruits[:] = ["kiwi", "orange", "pear"]`
+	- changes the entire list to the new one
