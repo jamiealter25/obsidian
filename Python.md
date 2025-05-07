@@ -68,7 +68,7 @@
 - Whenever the next line is indented, the current line must end with `:`
 - use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
 
-### Module 7 -  If....Else (conditional statements)
+### Module 8 -  If....Else (conditional statements)
 - It basically means If **this** is true, then **do this**, else (if it’s not true), **do something else**.
 - Use `if` & `else` for two arguments.
 - Use `if`, `elif` & `else` for more than two arguments.
@@ -81,12 +81,12 @@
 	else:
 	    print("Grade: C")
 
-### Module 8 - Loops
+### Module 9 - Loops
 - `while` loops --> It keeps running **as long as** the condition stays `True`.
 	- #example 
 	- count = 1
 		while count <= 5:
-	    print(count)
+		    print(count)
 	    count = count + 1
 	
 - `for` loops --> Used when you **already know** how many times to loop.
@@ -94,9 +94,9 @@
 	- for number in range(1, 6):
 	    print(number)
 
-### Module 9 - List, Tuple & Range
-- `list` --> A **list is a value** that stores **many items** in one place using `[ ]` square brackets
-- `[ ]` means changeable/ mutable, so `list` is mutable
+### Module 10 - List, Tuple & Range
+- **`list`** --> A **list is a collection** of many items stored in one place, it uses **square brackets `[ ]`**.
+- Lists are **mutable**, meaning you can **change** the items inside the list.
 	- #example 
 	- `fruits = ["apple", "banana", "cherry"]`
 	- `my_list = [1, 2, 3]`
@@ -111,3 +111,14 @@
 	- #example 
 	- for i in `range(2, 6)`:
 	    print(i)
+
+### Module 11 - Modify a List
+- Lists are **changeable (mutable)** — you can update the items anytime.
+- You can **modify** one item, **multiple items**, or even **replace the entire list**.
+	- - `[index]` = change one
+		- `[start:end]` = change some
+    
+- `[:]` = change all
+	- #example 
+	- `fruits = ["apple", "banana", "cherry"]`
+	- 
