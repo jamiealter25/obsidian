@@ -45,6 +45,13 @@
 	- `!=` --> Not equal to `5 != 3`
 	- `>=` --> Greater or equal `8 >= 5`
 	- `<=` --> Less or equal `3 <= 8`
+- Assignment Operators
+	- |Long way|Short way|What it means|
+|---|---|---|
+|`count = count + 1`|`count += 1`|Add 1 to count|
+|`x = x - 2`|`x -= 2`|Subtract 2 from x|
+|`total = total * 3`|`total *= 3`|Multiply total by 3|
+|`score = score / 2`|`score /= 2`|Divide score by 2|
 
 ### Module 4 - User Input
 - **User input** lets your program **ask the user** to type something when it runs.
@@ -74,3 +81,15 @@
 	    print("Grade: B")
 	else:
 	    print("Grade: C")
+
+### Module 8 - Loops
+- `while` loops --> It keeps running **as long as** the condition stays `True`.
+	- #example 
+	- count = 1
+		while count <= 5:
+	    print(count)
+	    count = count + 1
+- `for` loops --> Used when you **already know** how many times to loop.
+	- #example 
+	- for number in range(1, 6):
+	    print(number)
