@@ -159,7 +159,7 @@
 	- `fruits[:] = ["kiwi", "orange", "pear"]` --> (replaces the whole list with a new one)
 ---
 
-### Projects (Module 1 - Module 11)
+### Projects (Module 1 - 11)
 
 | **Project Name**                   | **Skills Used**                                       | **Description**                                                              |
 | ---------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------------------- |
