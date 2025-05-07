@@ -92,3 +92,14 @@
 	- #example 
 	- for number in range(1, 6):
 	    print(number)
+
+### Module 9 - List & Range
+- `list` --> stores **many items** in one place using `[]`
+- use to assign variables
+	- #example 
+	- `fruits = ["apple", "banana", "cherry"]`
+- `range()` --> gives you a list of numbers **in order**
+- use with `for` loops
+	- #example 
+	- for i in `range(2, 6)`:
+	    print(i)
