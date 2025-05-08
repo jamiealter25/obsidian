@@ -1,6 +1,6 @@
 
 ### Module 0 - Syntax
-- **Syntax** is the set of **rules** that define **how you should write code** so that Python can understand and run it correctly.
+- In a single word, **Syntax is Grammar** in coding.
 ---
 
 ### Module 1 - Comment
