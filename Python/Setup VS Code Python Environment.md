@@ -1,3 +1,5 @@
+- Install VS Code
+- 
 - Python is a high-level language
 - Python IDE can do - 
 	- Linting
@@ -8,4 +10,6 @@
 	- Code snippets
 - Use `View>Problems` to solve problems of python using VS Code
 - Use `View>Terminal` to access terminal in VS Code
-- 
+- Install Autopep8 extension for python formatter
+- Settings > search 'Format on save' and check it. 
+- Ctrl+Shift+P > open keyboard shortcuts > run python file (assign keyboard shortcut)
