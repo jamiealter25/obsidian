@@ -1,0 +1,11 @@
+- Python is a high-level language
+- Python IDE can do - 
+	- Linting
+	- Autocompletion
+	- Debugging
+	- Unit testing
+	- Code formatting
+	- Code snippets
+- Use `View>Problems` to solve problems of python using VS Code
+- Use `View>Terminal` to access terminal in VS Code
+- 
