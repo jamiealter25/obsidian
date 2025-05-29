@@ -1,14 +1,30 @@
-- Install VS Code (Code Editor)
-- Install Python (interpreter)
-- Clear Visual Distractions of VS Code GUI
-- VS Code Extensions -
-	- GitHub Theme (for theme)
-	- Material Icon Theme (for icon)
-	- Python (to convert VS Code into an IDE)
-	- Autopep8 (python formatter)
-- Python IDE can do - 
-	- `Linting`, `Autocompletion`,  `Debugging`,  `Unit testing`,  `Code formatting`, `Code snippets`
-- Use `View > Problems` to solve problems of python using VS Code
-- Use `View > Terminal` to access terminal in VS Code
-- Settings > search 'Format on save' and check it. 
-- Ctrl+Shift+P > open keyboard shortcuts > run python file (assign keyboard shortcut)
+### 🛠️ Python + VS Code Setup Guide
+
+#### 1. Install Essentials
+- **VS Code** – Code editor
+- **Python** – Interpreter
+#### 2. Customize VS Code GUI
+- Remove visual distractions for a cleaner workspace (optional but recommended)
+#### 3. Install VS Code Extensions
+- **GitHub Theme** – for a pleasant UI theme
+- **Material Icon Theme** – adds helpful file icons
+- **Python** – turns VS Code into a Python IDE
+- **Autopep8** – formats Python code to PEP8 standards
+#### 4. Python IDE Features
+With the above setup, VS Code will support:
+- Linting
+- Autocompletion
+- Debugging
+- Unit Testing
+- Code Formatting
+- Code Snippets
+#### 5. Helpful VS Code Tips
+- **Problem Panel**: Use `View > Problems` to locate and fix issues
+- **Terminal Access**: Use `View > Terminal` to open the built-in terminal
+- **Auto Formatting**:
+    - Go to `Settings > Search 'Format on Save'`
+    - ✅ Check it to auto-format your code on every save
+- **Custom Shortcut to Run Code**:
+    - Press `Ctrl + Shift + P`
+    - Search and open `Keyboard Shortcuts`
+    - Assign a shortcut to `Run Python File`
