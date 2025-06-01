@@ -110,9 +110,9 @@
 - `while` loops --> It keeps running **as long as** the condition stays `True`.
 	- #example 
 	- count = 1
-		while count <= 5:
+	  while count <= 5:
 		    print(count)
-	    count = count + 1
+		    count = count + 1
 	
 - `for` loops --> Used when you **already know** how many times to loop.
 	- #example 
@@ -138,6 +138,20 @@
 	- for i in `range(2, 6)`:
 	    print(i)
 ---
+### Module 11 – `def` (Define Function)
+- `def` is used to define a function.
+- Inside `()`, write a variable (called a **parameter**).
+- When calling the function, give a value (called an **argument**).
+
+#example 
+
+python
+def greet_person(name):
+    print(f"Hello, {name}!")
+
+greet_person("Afrid")
+
+
 
 ### Module 11 - Modify a List
 - Lists are **changeable (mutable)** — you can update the items anytime.
