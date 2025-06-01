@@ -144,16 +144,13 @@
 - When calling the function, give a value (called an **argument**).
 
 #example 
-
-python
+```python
 def greet_person(name):
     print(f"Hello, {name}!")
 
-greet_person("Afrid")
+greet_person("Afrid")```
 
-
-
-### Module 11 - Modify a List
+### Module 12 - Modify a List
 - Lists are **changeable (mutable)** — you can update the items anytime.
 - You can **modify** one item, **multiple items**, or even **replace the entire list**.
 	- `[index]` = change one
