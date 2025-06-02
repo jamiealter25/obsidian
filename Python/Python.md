@@ -144,6 +144,7 @@
 - When calling the function, give a value (called an **argument**).
 
 #example 
+
 ```python
 def greet_person(name):
     print(f"Hello, {name}!")

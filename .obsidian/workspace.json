@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Advance Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Advance Obsidian"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -172,8 +171,8 @@
   },
   "active": "274e52bd3e6be297",
   "lastOpenFiles": [
-    "Advance Obsidian.md",
     "Python/Python.md",
+    "Advance Obsidian.md",
     "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
