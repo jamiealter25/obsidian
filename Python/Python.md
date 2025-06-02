@@ -150,22 +150,7 @@ def greet_person(name):
 
 greet_person("Afrid")```
 
->[!Note]
->'"This is awesome"
-
->[!Quote]
->'"This is awesome"
-
->[!Important]
->'"This is awesome"
-
->[!Warning]
->'"This is awesome"
-
->[!Abstract]
->'"This is awesome"
-
-
+---
 
 ### Module 12 - Modify a List
 - Lists are **changeable (mutable)** — you can update the items anytime.
