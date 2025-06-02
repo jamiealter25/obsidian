@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -171,8 +172,9 @@
   },
   "active": "274e52bd3e6be297",
   "lastOpenFiles": [
-    "Python/Python.md",
+    "My Diagram Note.md",
     "Advance Obsidian.md",
+    "Python/Python.md",
     "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",

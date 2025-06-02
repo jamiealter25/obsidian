@@ -25,6 +25,53 @@ Callouts are custom-styled blocks in Obsidian used to emphasize notes, warnings,
 
 ---
 
-[  ] what
-[X]
+## 3. Mermaid Diagrams
+
+**Description:**  
+Mermaid allows you to create diagrams like flowcharts using simple text syntax. Wrap the code in a `mermaid` code block.
+
+**Example:**
+
+```mermaid
+graph TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Proceed]
+    B -->|No| D[Stop]
+```
+---
+
+## 4. Task Lists (Checkboxes)
+
+**Description:**  
+Create interactive to-do lists using `- [ ]` for unchecked and `- [x]` for checked boxes. Obsidian can track and query these tasks.
+
+**Example:**
+
+- [ ] Learn Markdown basics 
+- [x] Install Obsidian 
+- [ ] Use Dataview for automation`
+
+---
+
+## 5. Internal Links
+
+**Description:**  
+Link to other notes using double square brackets. This keeps your vault connected and searchable.
+
+**Example:**
+
+Refer to [[Advanced Obsidian Features]] for deeper insights.`
+
+---
+
+## 6. Embedding Notes or Files
+
+**Description:**  
+Embed content from other notes, PDFs, images, or audio using an exclamation mark before the link.
+
+**Example:**
+
+![[My Diagram Note]] ![[resources/cheatsheet.pdf]] ![[images/logo.png]]`
+
+---
 
