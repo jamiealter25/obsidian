@@ -150,6 +150,23 @@ def greet_person(name):
 
 greet_person("Afrid")```
 
+>[!Note]
+>'"This is awesome"
+
+>[!Quote]
+>'"This is awesome"
+
+>[!Important]
+>'"This is awesome"
+
+>[!Warning]
+>'"This is awesome"
+
+>[!Abstract]
+>'"This is awesome"
+
+
+
 ### Module 12 - Modify a List
 - Lists are **changeable (mutable)** — you can update the items anytime.
 - You can **modify** one item, **multiple items**, or even **replace the entire list**.
@@ -183,7 +200,3 @@ greet_person("Afrid")```
 | **Multiplication Table Generator** | `input()`, `for` loop, formatted strings              | Generate and display the multiplication table for a given number.            |
 | **Basic Login System**             | Variables, user input, `if-else`                      | Simple login system with a stored username and password.                     |
 
-
-| this | is    |
-| ---- | ----- |
-| a    | table |
