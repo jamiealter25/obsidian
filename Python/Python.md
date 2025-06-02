@@ -183,5 +183,7 @@ greet_person("Afrid")```
 | **Multiplication Table Generator** | `input()`, `for` loop, formatted strings              | Generate and display the multiplication table for a given number.            |
 | **Basic Login System**             | Variables, user input, `if-else`                      | Simple login system with a stored username and password.                     |
 
-|     |     |
-| --- | --- |
+
+| this | is    |
+| ---- | ----- |
+| a    | table |
