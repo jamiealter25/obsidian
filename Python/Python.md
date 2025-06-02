@@ -182,3 +182,6 @@ greet_person("Afrid")```
 | **Shopping Cart**                  | List, user input, loop                                | User adds items to a cart, then shows the final list when done.              |
 | **Multiplication Table Generator** | `input()`, `for` loop, formatted strings              | Generate and display the multiplication table for a given number.            |
 | **Basic Login System**             | Variables, user input, `if-else`                      | Simple login system with a stored username and password.                     |
+
+|     |     |
+| --- | --- |
