@@ -180,10 +180,7 @@ Customize how Obsidian looks using `.css` snippets. Enable the _"Custom CSS"_ pl
 
 **Example:**
 
-css
+/* Make headings bold and colorful */
+h1 {   color: #ff7b00;   font-weight: 800; }
 
-CopyEdit
-
-`/* Make headings bold and colorful */ h1 {   color: #ff7b00;   font-weight: 800; }`
-
-Enable this from **Settings → Appearance → CSS snippets**.
+# Enable this from **Settings → Appearance → CSS snippets**.
