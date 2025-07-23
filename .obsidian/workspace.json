@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Advance Obsidian.md",
-                "mode": "source",
+                "file": "Python/The 20% of Python You Should Master First.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advance Obsidian"
+              "title": "The 20% of Python You Should Master First"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "274e52bd3e6be297",
   "lastOpenFiles": [
-    "The 20% of Python You Should Master First.md",
     "Advance Obsidian.md",
+    "Python/The 20% of Python You Should Master First.md",
     "My Diagram Note.md",
     "Python/Python.md",
     "Advance Obsidian",
