@@ -78,11 +78,47 @@ LIMIT 5  OFFSET 10
 ```
 ---
 ### Module 7 - JOINs
-- `LIMIT` is used to **show a certain number of rows**.
-- `OFFSET` is used to **skip rows from the top**.
+- `JOIN` is used to **combine rows from two or more tables**.
+
+**INNER JOIN**
+- Shows rows **only when there is a match in both tables**.
 ```SQL
-SELECT Roll, Name
-FROM Students 
-LIMIT 5  OFFSET 10  
+SELECT A.id, B.name
+FROM TableA
+INNER JOIN TableB
+	ON A.id = B.id
+```
+---
+
+**LEFT JOIN (or LEFT OUTER JOIN)**
+- Shows **all rows from the left table**, and matched rows from the right table.
+- If no match, right table shows `NULL`.
+```SQL
+SELECT Students.Name, Enrollments.Course  
+FROM Students  
+INNER JOIN Enrollments  
+  ON Students.ID = Enrollments.Student_ID 
+```
+---
+
+**RIGHT JOIN (or RIGHT OUTER JOIN)**
+- Shows **all rows from the right table**, and matched rows from the left table.
+- If no match, left table shows `NULL`.
+```SQL
+SELECT Students.Name, Enrollments.Course  
+FROM Students  
+RIGHT JOIN Enrollments  
+  ON Students.ID = Enrollments.Student_ID 
+```
+---
+
+**FULL JOIN (or FULL OUTER JOIN)**
+- Shows **all rows when there is a match in one of the tables**.
+- If no match, the missing side shows `NULL`.
+```SQL
+SELECT Students.Name, Enrollments.Course  
+FROM Students  
+FULL JOIN Enrollments  
+  ON Students.ID = Enrollments.Student_ID 
 ```
 ---
