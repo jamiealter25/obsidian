@@ -23,6 +23,7 @@ FROM table1
 ### Module 3 - WHERE
 - To add different conditions.
 - The result will be shown based of this condition.
+- All these (=, !=, <, <=, >, >=) Standard numerical operators can be used.
 ```SQL
 SELECT Movie_Title, Year
 FROM Movies
