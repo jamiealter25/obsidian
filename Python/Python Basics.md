@@ -5,8 +5,9 @@
 
 ### Module 1 - Comment
 - Use the `#` symbol at the beginning of a line to make it a comment about code
-	- #example 
-	- `# this is a comment`
+```Python
+# This is a comment
+```
 ---
 
 ### Module 2 - Print

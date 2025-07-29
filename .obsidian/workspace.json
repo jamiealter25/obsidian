@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python.md",
+                "file": "Python/Python Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Python Basics"
             }
           }
         ]
@@ -185,7 +185,7 @@
     "Python/The 20% of Python You Should Master First.md",
     "Python/Setup VS Code Python Environment.md",
     "SQL Basics.md",
-    "Python/Python.md",
+    "Python/Python Basics.md",
     "Advance Obsidian.md",
     "My Diagram Note.md",
     "Advance Obsidian",
