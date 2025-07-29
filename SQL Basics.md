@@ -60,7 +60,7 @@ FROM table1
 ```
 ---
 ### Module 5 - ORDER BY
-- To remove duplicates from selected all columns.
+- To order list.
 - Use `ASC` , `DESC` to order by ascending or descending.
 ```SQL
 SELECT Roll, Name
@@ -77,16 +77,23 @@ FROM Students
 LIMIT 5  OFFSET 10  
 ```
 ---
-### Module 7 - JOINs
+### Module 7 - Dot (`.`) Notation
+- The dot `.` is used to **specify which table a column belongs to**.
+- Format: `TableName.ColumnName`
+```SQL
+SELECT Students.Name, Enrollments.Course 
+```
+---
+### Module 8 - JOINs
 - `JOIN` is used to **combine rows from two or more tables**.
 
 **INNER JOIN**
 - Shows rows **only when there is a match in both tables**.
 ```SQL
-SELECT A.id, B.name
-FROM TableA
-INNER JOIN TableB
-	ON A.id = B.id
+SELECT Students.Name, Enrollments.Course  
+FROM Students  
+INNER JOIN Enrollments  
+  ON Students.ID = Enrollments.Student_ID 
 ```
 ---
 
@@ -96,7 +103,7 @@ INNER JOIN TableB
 ```SQL
 SELECT Students.Name, Enrollments.Course  
 FROM Students  
-INNER JOIN Enrollments  
+LEFT JOIN Enrollments  
   ON Students.ID = Enrollments.Student_ID 
 ```
 ---
@@ -120,5 +127,14 @@ SELECT Students.Name, Enrollments.Course
 FROM Students  
 FULL JOIN Enrollments  
   ON Students.ID = Enrollments.Student_ID 
+```
+---
+### Module 9 - IS NULL & IS NOT NULL
+- Use `IS NULL` to **check if a column has no value** (empty or missing).
+- Use `IS NOT NULL` to **check if a column has a value** (not empty).
+```SQL
+SELECT Name, Email
+FROM Students
+WHERE Email IS NULL;   -- shows students without an email`
 ```
 ---
