@@ -138,3 +138,18 @@ FROM Students
 WHERE Email IS NULL;   -- shows students without an email`
 ```
 ---
+### Module 10 - AS (Alias)
+- `AS` is used to **give a temporary name (alias) to a column or table** in the result.
+```SQL
+SELECT Name AS Student_Name, Age AS Student_Age
+FROM Students;
+```
+---
+### Module 11 - Expressions (Math & Operations)
+- You can do **math or other operations directly in SQL**.
+- These can be used in `SELECT`, `WHERE`, and other clauses.
+```SQL
+SELECT particle_speed / 2.0 AS Half_Speed
+FROM Particles;     --The result will show in a column named Half_Speed
+```
+---
