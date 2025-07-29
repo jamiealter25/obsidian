@@ -52,3 +52,10 @@ WHERE Year > 2010
 | _          | Matches a single character (with LIKE)            | `col_name LIKE "AN_"` (matches "AND", not "AN")               |
 | IN (…)     | String exists in a list                           | `col_name IN ("A", "B", "C")`                                 |
 | NOT IN (…) | String does not exist in a list                   | `col_name NOT IN ("D", "E", "F")`                             |
+### Module 4 - FROM
+- To import selected data from a table.
+```SQL
+SELECT Column_name
+FROM table1
+```
+---
