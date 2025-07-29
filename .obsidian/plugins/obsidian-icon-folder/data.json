@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiSequelize",
       "SiPython",
       "SiGit",
       "SiVisualstudiocode",
-      "SiObsidian",
-      "SiAndroid"
+      "SiObsidian"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -39,5 +39,6 @@
   "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode",
   "Git & Github/Obsidian-VScode Git Sync Guide.md": "SiGit",
   "Python": "SiPython",
-  "Advance Obsidian.md": "SiObsidian"
+  "Advance Obsidian.md": "SiObsidian",
+  "SQL Basics.md": "SiSequelize"
 }
