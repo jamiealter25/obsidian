@@ -52,10 +52,37 @@ WHERE Year > 2010
 | _          | Matches a single character (with LIKE)            | `col_name LIKE "AN_"` (matches "AND", not "AN")               |
 | IN (…)     | String exists in a list                           | `col_name IN ("A", "B", "C")`                                 |
 | NOT IN (…) | String does not exist in a list                   | `col_name NOT IN ("D", "E", "F")`                             |
-### Module 4 - FROM
-- To import selected data from a table.
+### Module 4 - DISTINCT
+- To remove duplicates from selected all columns.
 ```SQL
-SELECT Column_name
+SELECT DISTINCT Column_name, Column_name
 FROM table1
+```
+---
+### Module 5 - ORDER BY
+- To remove duplicates from selected all columns.
+- Use `ASC` , `DESC` to order by ascending or descending.
+```SQL
+SELECT Roll, Name
+FROM Students
+ORDER BY Roll ASC
+```
+---
+### Module 6 - LIMIT & OFFSET
+- `LIMIT` is used to **show a certain number of rows**.
+- `OFFSET` is used to **skip rows from the top**.
+```SQL
+SELECT Roll, Name
+FROM Students 
+LIMIT 5  OFFSET 10  
+```
+---
+### Module 7 - JOINs
+- `LIMIT` is used to **show a certain number of rows**.
+- `OFFSET` is used to **skip rows from the top**.
+```SQL
+SELECT Roll, Name
+FROM Students 
+LIMIT 5  OFFSET 10  
 ```
 ---
