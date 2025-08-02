@@ -321,18 +321,26 @@ ALTER TABLE table_name
 DROP column_name;
 ```
 #### Rename a Table:
+```SQL
+ALTER TABLE old_table_name
+RENAME TO new_table_name;
+```
+#### Example
+```SQL
+ALTER TABLE movies
+ADD budget INTEGER DEFAULT 0;
 
-`ALTER TABLE old_table_name RENAME TO new_table_name;`
+ALTER TABLE movies
+DROP length_minutes;
 
-- Changes the name of the table.
-    
-
+ALTER TABLE movies
+RENAME TO film_list;
+```
 ---
-
-### 🔍 Example:
-
-pgsql
-
-CopyEdit
-
-`ALTER TABLE movies ADD budget INTEGER DEFAULT 0;  ALTER TABLE movies DROP length_minutes;  ALTER TABLE movies RENAME TO film_list;`
+### Module 21 - Dropping Tables (`DROP TABLE`)
+- `DROP TABLE` is used to **completely remove a table** from the database — including all its data **and** structure.
+- `IF EXISTS` prevents an error if the table doesn’t exist.
+```SQL
+DROP TABLE IF EXISTS table_name;
+```
+---
