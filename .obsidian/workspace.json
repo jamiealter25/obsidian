@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Learning Roadmap for AI & Machine Learning.md",
-                "mode": "preview",
+                "file": "SQL Basics.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Learning Roadmap for AI & Machine Learning"
+              "title": "SQL Basics"
             }
           }
         ],
@@ -198,8 +198,8 @@
   },
   "active": "9f1f8f9b1469d760",
   "lastOpenFiles": [
-    "Python/Python Basics.md",
     "Python Learning Roadmap for AI & Machine Learning.md",
+    "Python/Python Basics.md",
     "SQL Basics.md",
     "Python/The 20% of Python You Should Master First.md",
     "Python/Setup VS Code Python Environment.md",
