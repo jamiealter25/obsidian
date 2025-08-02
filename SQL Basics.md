@@ -153,3 +153,27 @@ SELECT particle_speed / 2.0 AS Half_Speed
 FROM Particles;     --The result will show in a column named Half_Speed
 ```
 ---
+### Module 12 - ABS (Absolute Value)
+- `ABS()` is used to **return the absolute (non-negative) value** of a number, removing any negative sign.
+```SQL
+SELECT ABS(-25) AS Absolute_Value; -- Output: 25`
+```
+---
+### Module 12 - Aggregate Functions
+- **Aggregate functions** allow you to **summarize data** across multiple rows. These functions return a **single value** based on a group of rows, unless grouped otherwise using `GROUP BY`.
+- If no `GROUP BY` is used, the function runs over **all rows**.
+ ```SQL
+ SELECT AGG_FUNC(column_or_expression) AS aggregate_description
+ FROM mytable
+ WHERE constraint_expression;
+```
+
+**Common Aggregate Functions:**
+
+|Function|Description|
+|---|---|
+|`COUNT(*)` or `COUNT(column)`|Counts total rows (or non-NULL values in a column).|
+|`MIN(column)`|Returns the **smallest** value in the column.|
+|`MAX(column)`|Returns the **largest** value in the column.|
+|`AVG(column)`|Calculates the **average** of numeric values.|
+|`SUM(column)`|Adds up all numeric values in the column.|
