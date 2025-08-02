@@ -257,3 +257,82 @@ SET rating = 9.5
 WHERE id = 3;
 ```
 ---
+### Module 18 - Deleting Rows (`DELETE`)
+- `DELETE` is used to **remove rows** from a table.
+- You must:
+    - Say **which table** to delete from
+    - Add a `WHERE` clause to **specify which rows** to delete
+```SQL
+DELETE FROM Movies
+WHERE id = 5;
+```
+---
+### Module 19 - Creating Tables (`CREATE TABLE`)
+- `CREATE TABLE` is used to **make a new table** in the database.
+- You define:
+    - Column **names**
+    - Their **data types**
+    - Optional **constraints** (rules for valid data)
+    - Optional **default values**
+```SQL
+CREATE TABLE movies (
+	id INTEGER PRIMARY KEY,
+	title TEXT,
+	director TEXT,
+	year_released INTEGER,
+	length_minutes INTEGER
+);
+```
+
+#### Common Data Types:
+
+|Type|Description|
+|---|---|
+|`INTEGER`, `BOOLEAN`|Whole numbers, true/false|
+|`FLOAT`, `DOUBLE`, `REAL`|Decimal numbers (for precise values)|
+|`TEXT`, `VARCHAR(n)`|Strings and text|
+|`DATE`, `DATETIME`|Dates and timestamps|
+|`BLOB`|Binary data (e.g., images, files)|
+
+---
+#### Common Constraints:
+
+|Constraint|What It Means|
+|---|---|
+|`PRIMARY KEY`|Uniquely identifies each row|
+|`AUTOINCREMENT`|Automatically increases number on each insert|
+|`UNIQUE`|Value must not repeat across rows|
+|`NOT NULL`|Value is required (can’t be empty)|
+|`CHECK (cond)`|Value must pass a rule (e.g., `CHECK(age > 0)`)|
+|`FOREIGN KEY`|Value must exist in another table's column|
+
+---
+### Module 20 - Altering Tables (`ALTER TABLE`)
+- `ALTER TABLE` lets you **change the structure** of an existing table.
+- You can **add**, **remove**, or **rename** columns, or even **rename the table** itself.
+#### Add a Column:
+```SQL
+ALTER TABLE table_name
+ADD column_name DataType [Constraint] DEFAULT default_value;
+```
+#### Remove a Column:
+```SQL
+ALTER TABLE table_name
+DROP column_name;
+```
+#### Rename a Table:
+
+`ALTER TABLE old_table_name RENAME TO new_table_name;`
+
+- Changes the name of the table.
+    
+
+---
+
+### 🔍 Example:
+
+pgsql
+
+CopyEdit
+
+`ALTER TABLE movies ADD budget INTEGER DEFAULT 0;  ALTER TABLE movies DROP length_minutes;  ALTER TABLE movies RENAME TO film_list;`
