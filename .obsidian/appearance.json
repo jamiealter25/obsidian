@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
     "heading"
-  ]
+  ],
+  "showRibbon": true,
+  "showViewHeader": true
 }
