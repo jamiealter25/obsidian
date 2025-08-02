@@ -159,13 +159,13 @@ FROM Particles;     --The result will show in a column named Half_Speed
 SELECT ABS(-25) AS Absolute_Value; -- Output: 25`
 ```
 ---
-### Module 12 - Aggregate Functions
-- **Aggregate functions** allow you to **summarize data** across multiple rows. These functions return a **single value** based on a group of rows, unless grouped otherwise using `GROUP BY`.
+### Module 13 - Aggregate Functions
+- **Aggregate functions** help you **summarize data** from many rows into **one single result**.
 - If no `GROUP BY` is used, the function runs over **all rows**.
  ```SQL
- SELECT AGG_FUNC(column_or_expression) AS aggregate_description
- FROM mytable
- WHERE constraint_expression;
+SELECT SUM(Salary) AS Total_High_Earners
+FROM Employees
+WHERE Salary > 50000;
 ```
 
 **Common Aggregate Functions:**
@@ -177,3 +177,13 @@ SELECT ABS(-25) AS Absolute_Value; -- Output: 25`
 |`MAX(column)`|Returns the **largest** value in the column.|
 |`AVG(column)`|Calculates the **average** of numeric values.|
 |`SUM(column)`|Adds up all numeric values in the column.|
+
+---
+### Module 13 - GROUP BY
+- `GROUP BY` **groups together rows that have the same value** in a column.
+```SQL
+SELECT Department, AVG(Salary) AS Avg_Salary
+FROM Employees
+GROUP BY Department;
+````
+---
