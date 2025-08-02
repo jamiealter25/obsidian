@@ -187,3 +187,75 @@ FROM Employees
 GROUP BY Department;
 ````
 ---
+### Module 14 - HAVING
+- `HAVING` is used to **filter groups** after they’ve been created by `GROUP BY`. 
+- It's like `WHERE`, but instead of filtering individual rows, it filters the **results of grouped data**.
+ ```SQL
+SELECT Department, AVG(Salary) AS Avg_Salary
+FROM Employees
+GROUP BY Department
+HAVING AVG(Salary) > 60000;
+```
+---
+### Module 15 - SQL Query Execution Order
+- SQL runs queries in this order:
+
+| Step | Clause       | What It Does               |
+| ---- | ------------ | -------------------------- |
+| 1    | FROM/JOIN    | Get data from tables       |
+| 2    | WHERE        | Filter rows                |
+| 3    | GROUP BY     | Group rows                 |
+| 4    | HAVING       | Filter groups              |
+| 5    | SELECT       | Choose columns             |
+| 6    | DISTINCT     | Remove duplicate rows      |
+| 7    | ORDER BY     | Sort results               |
+| 8    | LIMIT/OFFSET | Limit number of rows shown |
+
+---
+### Module 16.1 - What is a Database Schema?
+
+- A **database schema** is the **blueprint** of a table.
+- It defines the **columns** in the table and the **type of data** each column can hold.
+- The schema helps keep data **organized** and **consistent**.
+```TEXT
+
+```
+### Module 16 - Inserting Rows (`INSERT`)
+- The **database schema** defines the structure of a table — its columns and their data types.
+- Use the `INSERT` statement to **add new rows** to a table.
+---
+
+#### 📌 Insert all columns:
+
+sql
+
+CopyEdit
+
+`INSERT INTO table_name VALUES (value1, value2, value3),         (value4, value5, value6);`
+
+---
+
+#### 📌 Insert specific columns:
+
+sql
+
+CopyEdit
+
+`INSERT INTO table_name (column1, column2) VALUES (value1, value2),        (value3, value4);`
+
+- Only include columns you have values for.
+    
+- Useful when some columns have default values (like auto-increment IDs).
+    
+
+---
+
+#### 📌 Insert with expressions:
+
+You can insert values using calculations or expressions, e.g.:
+
+sql
+
+CopyEdit
+
+`INSERT INTO boxoffice (movie_id, rating, sales_in_millions) VALUES (1, 9.9, 283742034 / 1000000);`
