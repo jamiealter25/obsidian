@@ -1,5 +1,3 @@
-# Data Science & Machine Learning with Python
-
 ### **Basic Python Programming (Module 0-3)**
 
 #### Week 0 - Start before the start
@@ -27,12 +25,7 @@
         
 - **Live Class 2: Inheritance and Advanced OOP Features**
     - **Topics:** Single Inheritance | Hierarchical Inheritance | Multilevel Inheritance | Multiple Inheritance | Method Overloading | Method Overriding | Encapsulation | Polymorphism
-        
-
 ---
-
-
-
 
 ### **Database (Module 4)**
 
@@ -43,11 +36,7 @@
         
 - **Live Class 2: Advanced SQL Operations**
     - **Topics:** Join Types: Inner, Left, Right, Full | Union | Intersect | Except
-        
-
 ---
-
-
 
 ### **Data Analysis (Module 5-6)**
 
@@ -67,9 +56,7 @@
         
 - **Live Class 2: Numpy Attributes and Advanced Pandas Operations**
     - **Topics:** Data Cleaning with Pandas | Handling Missing Data | Dropping and Filling Data | Basic Data Aggregations in Pandas (sum(), mean(), median(), count())
-
-
-
+---
 
 ### **Statistics (Module 7)**
 
@@ -80,11 +67,11 @@
         
 - **Live Class 2: Dispersion, Distribution, and Correlation**
     - **Topics:** Measures of Dispersion: Variance, Standard Deviation | Normal Distribution | Coefficient of Correlation
-
+---
 
 ### **Data Visualization (Module 8-9)**
 
-#### Week 8 - Data Visualization Part 1
+#### Week 8 - Data Visualization (Part 1)
 
 - **Live Class 1: Introduction to Data Visualization and Types**
     - **Topics:** Exploratory Data Analysis | Time Series Data Visualization | Geospatial Data Visualization (Matplotlib)
@@ -93,7 +80,7 @@
     - **Topics:** Text and Document Visualization | Multidimensional Data Visualization | Comparative Visualization (Embedding)
 
 
-#### Week 9 - Data Visualization Part 2
+#### Week 9 - Data Visualization (Part 2)
 
 - **Live Class 1: Advanced Data Visualization Techniques**
     - **Topics:** Network Data Visualization | Interactive Data Visualization (Seaborn)
@@ -103,6 +90,7 @@
 
 
 
+---
 ### **Machine Learning: Basic to Advanced (Module 10-15)**
 
 #### Week 10 - Feature Scaling, PCA
@@ -152,8 +140,7 @@
         
 - **Live Class 2: Introduction to NLP and Its Applications**
     - **Topics:** What is NLP | NLP Pipeline | NLU: Ambiguity | Applications of NLP
-
-
+---
 ### **AI-Driven Data Science & Machine Learning (Module 16)**
 
 #### Week 16 - Data Science & Machine Learning with AI
@@ -167,8 +154,7 @@
     - **Topics:** Machine Learning with AI | AI-Powered Model Optimization
         
     - **Practical Project 2:** AI-Powered Machine Learning Model
-
-
+---
 ### **Job assistance & Freelancing Module (Module 17-19)**
 
 #### Week 17 - Career & CV Blueprint for Data Science Jobs
