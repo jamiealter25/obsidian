@@ -1,3 +1,4 @@
+# Data Science & Machine Learning with Python
 
 ### **Basic Python Programming (Module 0-3)**
 
@@ -100,7 +101,7 @@
 
 ### **Machine Learning: Basic to Advanced (Module 10-15)**
 
-#### Week 10 - Machine Learning | Feature Scaling, PCA
+#### Week 10 - Feature Scaling, PCA
 
 - **Live Class 1: Introduction to Machine Learning and Evaluation Metrics**
     - **Topics:** What is Machine Learning | Types of ML | Training, Test, Validation Data | Confusion Matrix | Precision | Recall | F1 Score
@@ -109,106 +110,86 @@
     - **Topics:** Normalization | Standardization
 
 
-#### Week 11 - Machine Learning | Feature & Linear Engineering
+#### Week 11 - Feature & Linear Engineering
 
 - **Live Class 1: Linear Regression and Outlier Detection**
     - **Topics:** Simple Linear Regression | Multiple Linear Regression | Outliers STD z score | Outliers IQR
         
 - **Live Class 2: Feature Engineering and Encoding**
     - **Topics:** Feature Extraction | Encoding
-        
 
-**3. মেশিন লার্নিং | লজিস্টিক রিগ্রেশন মডেল | KNN (Machine Learning | Logistic Regression Model | KNN)**
+
+#### Week 12 - Logistic Regression Model | KNN
 
 - **Live Class 1: Logistic Regression Models**
-    
     - **Topics:** Logistic Regression | Binary Logistic Regression
         
 - **Live Class 2: KNN Classifier**
-    
     - **Topics:** K Nearest Neighbor (KNN) Classifier
-        
 
-**4. মেশিন লার্নিং | ডিসিশন ট্রি | সাপোর্ট ভেক্টর মেশিন (Machine Learning | Decision Tree | Support Vector Machine)**
+
+#### Week 13 - Decision Tree | Support Vector Machine
 
 - **Live Class 1: Decision Tree Classification**
     
 - **Live Class 2: Support Vector Machine (SVM)**
-    
 
-**5. মেশিন লার্নিং | K Means Clustering | Time Series Analysis**
+#### Week 14 - K Means Clustering | Time Series Analysis
 
 - **Live Class 1: K-Mean Clustering Algorithm**
     
 - **Live Class 2: Naive Bayesian Classifier**
     
 
-**6. ইন্ট্রোডাকশন টু অ্যাডভান্সড ডেটা সায়েন্স (Introduction to Advanced Data Science)**
+#### Week 15 - Introduction to Advanced Data Science
 
 - **Live Class 1: Introduction to Neural Networks**
-    
     - **Topics:** Neurons | BNN | ANN | How ANN works | Architecture of ANN
         
 - **Live Class 2: Introduction to NLP and Its Applications**
-    
     - **Topics:** What is NLP | NLP Pipeline | NLU: Ambiguity | Applications of NLP
-        
 
----
 
-### **AI-Driven Data Science & Machine Learning (Module 16-16)**
+### **AI-Driven Data Science & Machine Learning (Module 16)**
 
-**1. Data Science & Machine Learning with AI**
+#### Week 16 - Data Science & Machine Learning with AI
 
 - **Live Class 1: Data Science with AI – Data Analysis & Visualization**
-    
     - **Topics:** AI in Data Science | AI-enhanced data analysis concepts | Practical applications | Data transformation | Data Summarization | Creating Interactive Charts | AI-Powered Visualizations | AI-Driven Insights | Automated Data Exploration | AI-Based Pattern Detection
         
     - **Practical Project 1:** AI-Powered Data Visualization
         
 - **Live Class 2: Machine Learning with AI – Building Your First ML Model**
-    
     - **Topics:** Machine Learning with AI | AI-Powered Model Optimization
         
     - **Practical Project 2:** AI-Powered Machine Learning Model
-        
 
----
 
 ### **Job assistance & Freelancing Module (Module 17-19)**
 
-**1. Career & CV Blueprint for Data Science Jobs**
+#### Week 17 - Career & CV Blueprint for Data Science Jobs
 
 - **Live Class 1: Mapping the Data Science Career Landscape**
-    
     - **Topics:** Evolution of DS & ML Careers | Data Analyst vs. Data Scientist vs. ML Engineer | Key Skills | Market Trends | Job Insights | Skill Gap Analysis | Learning Paths & Certifications | Portfolio Building | Continuous Learning | 6-12 Month Career Plan
         
 - **Live Class 2: CV & Interview Mastery for Data Roles**
-    
     - **Topics:** Effective CV | Showcasing Projects | Data-Driven Keywords | ATS-Friendly CV | Real CV Examples | What Recruiters Look for | Interview Q&A | Personal Branding | Interview Do's and Don'ts
-        
-- **Assignment:** Submit updated CV and prepare a mock LinkedIn bio.
-    
+    - **Assignment:** Submit updated CV and prepare a mock LinkedIn bio.
 
-**2. Freelancing in Data Science**
+#### Week 18 - Freelancing in Data Science
 
 - **Live Class 1: Getting Started with Freelancing**
-    
     - **Topics:** Platforms (Upwork, Fiverr, etc.) | Creating Winning Profiles | Portfolio Projects | Crafting Proposals | Common Freelance Gigs
         
 - **Live Class 2: Managing Freelance Projects**
-    
     - **Topics:** Scoping Projects & Client Communication | Time Management & Pricing | Case Studies | Scaling to Long-term Clients
-        
-- **Assignment:** Create a dummy freelance profile, write 2 sample proposals, and submit a portfolio link.
+    - **Assignment:** Create a dummy freelance profile, write 2 sample proposals, and submit a portfolio link.
     
 
-**3. Mock Interview Preparation**
+#### Week 19 - Mock Interview Preparation
 
 - **Live Class 1: Mock Interview Preparation**
-    
     - **Topics:** SQL, Python, Pandas Scenario Questions | Business Problem-Solving | Hands-on Demo | Feedback & Improvement Tips
         
 - **Live Class 2: Conducting the Mock Interview**
-    
     - **Topics:** Student Portfolio Walkthroughs | Mock Interview Sessions | Real-Time Feedback | Peer & Mentor Review | Reflection & Q&A
