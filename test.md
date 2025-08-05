@@ -1,8 +1,3 @@
-Based on the image provided, here is a detailed list of the curriculum:
-
-### **কারিকুলাম (Curriculum)**
-
----
 
 ### **Basic Python Programming (Module 0-3)**
 
@@ -36,7 +31,7 @@ Based on the image provided, here is a detailed list of the curriculum:
 ---
 
 
-### **Database(Module 4)**
+### **Database (Module 4)**
 
 #### Week 4 - SQL Fundamentals
 
@@ -49,94 +44,77 @@ Based on the image provided, here is a detailed list of the curriculum:
 
 ---
 
-### **ডেটা অ্যানালাইসিস (Module 5-6) (Data Analysis)**
 
-**1. Numpy & Pandas এর সাথে ডেটা অ্যানালাইসিস পার্ট ১ (Data Analysis with Numpy & Pandas Part 1)**
+
+### **Data Analysis (Module 5-6)**
+
+#### Week - 5 Data Analysis with Numpy & Pandas Part 1
 
 - **Live Class 1: Introduction to NumPy**
-    
     - **Topics:** Introduction to NumPy | Numpy Array Basics | List vs Numpy Array | Numpy Array Initialization | Initializing Arrays | Zeros | Ones | Identity | Full | Rand | Randint | Detailed Presentation of Array Initialization Techniques | Arange Functions | Linspace Functions | Indexing & Slicing (1D Arrays, 2D Arrays) | max() | min() | argmax() | argmin()
         
 - **Live class 2: Introduction to Pandas**
-    
     - **Topics:** Pandas Topics: Introduction to Pandas | Pandas Data Structures | Series | DataFrame Basics (Creating DataFrames)
-        
 
-**2. Numpy & Pandas এর সাথে ডেটা অ্যানালাইসিস পার্ট ২ (Data Analysis with Numpy & Pandas Part 2)**
+
+#### Week - 6 Data Analysis with Numpy & Pandas Part 2
 
 - **Live Class 1: Pandas Data Manipulation Basics**
-    
     - **Topics:** Loading Data into Pandas (CSV, Excel) | Selecting and Filtering Data in DataFrames
         
 - **Live Class 2: Numpy Attributes and Advanced Pandas Operations**
-    
     - **Topics:** Data Cleaning with Pandas | Handling Missing Data | Dropping and Filling Data | Basic Data Aggregations in Pandas (sum(), mean(), median(), count())
-        
 
----
 
-### **স্ট্যাটিস্টিক্স (Module 7-7) (Statistics)**
+### **Statistics (Module 7)**
 
-**1. ডেটা সায়েন্সের জন্য ব্যাসিক স্ট্যাটিস্টিক্স (Basic Statistics for Data Science)**
+#### Week 7 - Basic Statistics for Data Science
 
 - **Live Class 1: Understanding Data Types and Central Tendency**
-    
     - **Topics:** Qualitative Data | Quantitative Data | Central Tendency: Mean, Median, Mode
         
 - **Live Class 2: Dispersion, Distribution, and Correlation**
-    
     - **Topics:** Measures of Dispersion: Variance, Standard Deviation | Normal Distribution | Coefficient of Correlation
-        
 
----
 
-### **ডেটা ভিজ্যুয়ালাইজেশন (Module 8-9) (Data Visualization)**
+### **Data Visualization (Module 8-9)**
 
-**1. ডেটা ভিজ্যুয়ালাইজেশন পার্ট ১ (Data Visualization Part 1)**
+#### Week 8 - Data Visualization Part 1
 
 - **Live Class 1: Introduction to Data Visualization and Types**
-    
     - **Topics:** Exploratory Data Analysis | Time Series Data Visualization | Geospatial Data Visualization (Matplotlib)
         
 - **Live Class 2: Advanced Data Visualization Techniques**
-    
     - **Topics:** Text and Document Visualization | Multidimensional Data Visualization | Comparative Visualization (Embedding)
-        
 
-**2. ডেটা ভিজ্যুয়ালাইজেশন পার্ট ২ (Data Visualization Part 2)**
+
+#### Week 9 - Data Visualization Part 2
 
 - **Live Class 1: Advanced Data Visualization Techniques**
-    
     - **Topics:** Network Data Visualization | Interactive Data Visualization (Seaborn)
         
 - **Live Class 2: Dashboard and Visual Analytics**
-    
     - **Topics:** Dashboard Design and Development | Visual Analytics (Plotly)
-        
 
----
 
-### **মেশিন লার্নিং (বেসিক টু অ্যাডভান্সড) (Module 10-15) (Machine Learning: Basic to Advanced)**
 
-**1. মেশিন লার্নিং | ফিচার স্কেলিং, PCA (Machine Learning | Feature Scaling, PCA)**
+### **Machine Learning: Basic to Advanced (Module 10-15)**
+
+#### Week 10 - Machine Learning | Feature Scaling, PCA
 
 - **Live Class 1: Introduction to Machine Learning and Evaluation Metrics**
-    
     - **Topics:** What is Machine Learning | Types of ML | Training, Test, Validation Data | Confusion Matrix | Precision | Recall | F1 Score
         
 - **Live Class 2: Feature Scaling and Data Transformation**
-    
     - **Topics:** Normalization | Standardization
-        
 
-**2. মেশিন লার্নিং | ফিচার ও লিনিয়ার ইঞ্জিনিয়ারিং (Machine Learning | Feature & Linear Engineering)**
+
+#### Week 11 - Machine Learning | Feature & Linear Engineering
 
 - **Live Class 1: Linear Regression and Outlier Detection**
-    
     - **Topics:** Simple Linear Regression | Multiple Linear Regression | Outliers STD z score | Outliers IQR
         
 - **Live Class 2: Feature Engineering and Encoding**
-    
     - **Topics:** Feature Extraction | Encoding
         
 
