@@ -4,7 +4,7 @@
 
 #### Week 0 - Start before the start
 - 59 recorded videos
-#### Week 1 - Python Programming Fundamentals Part 1
+#### Week 1 - Python Programming Fundamentals (Part 1)
 
 - **Live Class 1: Unlocking the Power of Variables and Logic**
     - **Topics:** Variables | Data Types | Dynamic Types | If Statements | Logical Operators | Comparison/Relational/Conditional Operators
@@ -12,7 +12,7 @@
 - **Live Class 2: Loops, Strings and Smart Operations**
     - **Topics:** For Loops | While Loops | Break & Continue Statement | Strings | Arithmetic Operations | Operator Precedence | Math Functions
         
-#### Week 2 - Python Programming Fundamentals Part 2
+#### Week 2 - Python Programming Fundamentals (Part 2)
 
 - **Live Class 1: Understanding Data Structures and Functions**
     - **Topics:** Lists | List Methods | Dictionaries | Functions | Parameters/Arguments | Keyword Parameters/Arguments | Default Parameter Value | Return Statement
@@ -20,7 +20,7 @@
 - **Live Class 2: Advanced Data Structures and Comparison**
     - **Topics:** Set (Union/Intersection/Difference) | Tuples | Unpacking/Comparing | Difference between List and Tuple
 
-#### Week 3 - Python Programming Fundamentals Part 3
+#### Week 3 - Python Programming Fundamentals (Part 3)
 
 - **Live Class 1: Introduction to OOP Concepts**
     - **Topics:** Object Oriented Programming (OOP) | Classes | Objects | Introducing Method | Default Constructors | Parameterized Constructor | Pass Statement | Intro to Inheritance
@@ -30,6 +30,8 @@
         
 
 ---
+
+
 
 
 ### **Database (Module 4)**
@@ -49,7 +51,7 @@
 
 ### **Data Analysis (Module 5-6)**
 
-#### Week - 5 Data Analysis with Numpy & Pandas Part 1
+#### Week - 5 Data Analysis with Numpy & Pandas (Part 1)
 
 - **Live Class 1: Introduction to NumPy**
     - **Topics:** Introduction to NumPy | Numpy Array Basics | List vs Numpy Array | Numpy Array Initialization | Initializing Arrays | Zeros | Ones | Identity | Full | Rand | Randint | Detailed Presentation of Array Initialization Techniques | Arange Functions | Linspace Functions | Indexing & Slicing (1D Arrays, 2D Arrays) | max() | min() | argmax() | argmin()
@@ -58,13 +60,15 @@
     - **Topics:** Pandas Topics: Introduction to Pandas | Pandas Data Structures | Series | DataFrame Basics (Creating DataFrames)
 
 
-#### Week - 6 Data Analysis with Numpy & Pandas Part 2
+#### Week - 6 Data Analysis with Numpy & Pandas (Part 2)
 
 - **Live Class 1: Pandas Data Manipulation Basics**
     - **Topics:** Loading Data into Pandas (CSV, Excel) | Selecting and Filtering Data in DataFrames
         
 - **Live Class 2: Numpy Attributes and Advanced Pandas Operations**
     - **Topics:** Data Cleaning with Pandas | Handling Missing Data | Dropping and Filling Data | Basic Data Aggregations in Pandas (sum(), mean(), median(), count())
+
+
 
 
 ### **Statistics (Module 7)**
