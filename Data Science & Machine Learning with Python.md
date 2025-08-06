@@ -183,3 +183,96 @@
         
 - **Live Class 2: Conducting the Mock Interview**
     - **Topics:** Student Portfolio Walkthroughs | Mock Interview Sessions | Real-Time Feedback | Peer & Mentor Review | Reflection & Q&A
+
+
+
+
+# 📚 Self-Learning Roadmap for Data Science & AI (Free Resources)
+
+## Module 0-3: Basic Python Programming
+
+### Week 0 – Start Before the Start  
+- [freeCodeCamp: 4-hour Python for Beginners](https://www.youtube.com/watch?v=rfscVS0vtbw)  
+- [Harvard’s CS50 Python Lectures (YouTube)](https://www.youtube.com/playlist?list=PLhQjrBD2T3817j24-GogXmWqO5Q5vYy0V)
+
+### Week 1 – Variables, Logic, Loops, Strings  
+- [W3Schools – Python Basics](https://www.w3schools.com/python/)  
+- [freeCodeCamp: If/Else, Loops](https://www.youtube.com/watch?v=7LNl2JlZKHA)
+
+### Week 2 – Lists, Dictionaries, Sets, Tuples, Functions  
+- [Corey Schafer Python Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)  
+- [Real Python – Data Structures](https://realpython.com/python-data-structures/)
+
+### Week 3 – OOP in Python  
+- [Corey Schafer - OOP Playlist](https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc)  
+- [W3Schools - Python Classes](https://www.w3schools.com/python/python_classes.asp)
+
+## Module 4: SQL Fundamentals
+
+### Week 4 – SQL Basics + Joins  
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)  
+- [Khan Academy SQL Course](https://www.khanacademy.org/computing/computer-programming/sql)  
+- [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/introduction-to-sql/)
+
+## Module 5-6: Data Analysis with NumPy & Pandas
+
+### Week 5-6 – NumPy & Pandas  
+- [NumPy Crash Course – freeCodeCamp](https://www.youtube.com/watch?v=QUT1VHiLmmI)  
+- [Pandas Full Tutorial – freeCodeCamp](https://www.youtube.com/watch?v=vmEHCJofslg)  
+- [Kaggle Python + Pandas Mini-Course](https://www.kaggle.com/learn/pandas)
+
+## Module 7: Statistics for Data Science
+
+### Week 7 – Central Tendency, Dispersion, Correlation  
+- [Khan Academy Statistics & Probability](https://www.khanacademy.org/math/statistics-probability)  
+- [StatQuest with Josh Starmer](https://www.youtube.com/user/joshstarmer)  
+- [freeCodeCamp: Statistics for Data Science](https://www.youtube.com/watch?v=xxpc-HPKN28)
+
+## Module 8-9: Data Visualization
+
+### Week 8-9 – EDA, Matplotlib, Seaborn, Plotly  
+- [Matplotlib Crash Course – Corey Schafer](https://www.youtube.com/watch?v=UO98lJQ3QGI)  
+- [Seaborn Tutorial – freeCodeCamp](https://www.youtube.com/watch?v=GcXcSZ0gQps)  
+- [Plotly Official Docs](https://plotly.com/python/)  
+- [Kaggle: Data Visualization](https://www.kaggle.com/learn/data-visualization)
+
+## Module 10-15: Machine Learning
+
+### Week 10-15 – ML Models, Scaling, PCA, SVM, Clustering, ANN, NLP  
+- [freeCodeCamp: Machine Learning with Python](https://www.youtube.com/watch?v=GJoBWM06U5s)  
+- [StatQuest ML Playlist](https://www.youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1)  
+- [Kaggle: Intro to ML](https://www.kaggle.com/learn/intro-to-machine-learning)  
+- [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course)  
+- [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+
+## Module 16: AI-Driven Data Science & ML
+
+### Week 16 – AI in Data Science  
+- [Google AutoML & Vertex AI](https://cloud.google.com/training)  
+- [Streamlit + Plotly Dashboards – YouTube](https://www.youtube.com/watch?v=ZZ4B0QUHuNc)  
+- [Tableau Public, MonkeyLearn (Free Tiers)]
+
+## 💼 Module 17-19: Career Prep & Freelancing
+
+### Week 17 – Career & CV Prep  
+- [Google Data Analytics Certificate](https://grow.google/certificates/data-analytics/)  
+- [Kaggle Portfolio Tips](https://www.kaggle.com/discussions/general/250197)  
+- [TDS: Data Science CVs](https://towardsdatascience.com/)
+
+### Week 18 – Freelancing  
+- [freeCodeCamp Freelancing Course](https://www.youtube.com/watch?v=kjBOesZCoqc)  
+- [Upwork Academy](https://community.upwork.com/)  
+- [Fiverr Gigs Guide](https://www.fiverr.com/resources/guides)
+
+### Week 19 – Mock Interviews  
+- [InterviewBit Practice](https://www.interviewbit.com/)  
+- [StrataScratch SQL Interviews](https://www.stratascratch.com/)  
+- [Pramp – Free Mock Interviews](https://www.pramp.com/#/)  
+- [LeetCode + Glassdoor DS Questions](https://leetcode.com/)
+
+## Bonus Practice Platforms
+
+- [Kaggle Competitions](https://www.kaggle.com/competitions)  
+- [HackerRank Python & SQL](https://www.hackerrank.com/domains/tutorials/10-days-of-python)  
+- [GitHub: Practical AI Projects](https://github.com/practicalAI/projects)  
+- [Real Python](https://realpython.com/)
