@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning Python 2.md",
-                "mode": "source",
+                "file": "Learning_Python_Merged.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Learning Python 2"
+              "title": "Learning_Python_Merged"
             }
           }
         ]
@@ -182,6 +182,7 @@
   },
   "active": "5cd39689606af5ab",
   "lastOpenFiles": [
+    "Learning Python 2.md",
     "Learning Python 1.md",
     "Data Science & Machine Learning with Python.md",
     "Untitled.md",
