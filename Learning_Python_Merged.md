@@ -1,4 +1,3 @@
-
 ### Module 0 - Syntax
 - In a single word, **Syntax is Grammar** in coding.
 ---
@@ -200,5 +199,155 @@ fruits[:] = ["kiwi", "orange", "pear"]` #replaces the whole list with a new one
 | **Number Guessing Game**           | `while` loop, `if` statements, user input, comparison | User guesses a number until they get it right.                               |
 | **Shopping Cart**                  | List, user input, loop                                | User adds items to a cart, then shows the final list when done.              |
 | **Multiplication Table Generator** | `input()`, `for` loop, formatted strings              | Generate and display the multiplication table for a given number.            |
-| **Basic Login System**             | Variables, user input, `if-else`                      | Simple login system with a stored username and password.                     |
+| **Basic Login System**             | Variables, user input, `if-else`                      | Simple login system with a stored username and password.                     |---
 
+### Module 13 - Expressions
+- Combine values and operators to get a result.
+```python
+2 + 2  # 4
+```
+
+---
+
+### Module 14 - String Operations
+**Concatenation:** Join strings.
+```python
+"Alice" + " Max"  # Alice Max
+```
+
+**Replication:** Repeat strings.
+```python
+"Alice" * 3  # AliceAliceAlice
+```
+
+---
+
+### Module 15 - Statements
+- Instructions like assignment or print.
+```python
+x = 5
+print("Hello")
+```
+
+---
+
+### Module 16 - Convert Data Types
+```python
+str(26)  # '26'
+```
+
+---
+
+### Module 17 - Boolean & Comparison
+- `True`, `False`, `==`, `!=`, `>`, `<`
+```python
+42 == 42  # True
+```
+
+**Boolean Operators:**
+- `and`, `or`, `not`
+```python
+True and False  # False
+not True        # False
+```
+
+---
+
+### Module 18 - Truthy and Falsey
+- `""`, `0`, `None` → Falsey
+- Others → Truthy
+```python
+if name:
+    print("You entered a name")
+```
+
+---
+
+### Module 19 - Break & Continue
+```python
+while True:
+    print("Hello")
+    break
+```
+
+---
+
+### Module 20 - Standard Modules
+```python
+import math, random, sys
+from random import *
+sys.exit()
+```
+
+---
+
+### Module 21 - Return Statement
+```python
+def add_one(n):
+    return n + 1
+```
+
+---
+
+### Module 22 - Print Options
+```python
+print("Hello", end=" ")
+print("World")
+print("A", "B", "C", sep="-")  # A-B-C
+```
+
+---
+
+### Module 23 - Scope
+- Global can't access local.
+- Local can read global.
+```python
+def greet():
+    global name
+    name = "Alice"
+```
+
+---
+
+### Module 24 - Error Handling
+```python
+try:
+    print(42 / 0)
+except ZeroDivisionError:
+    print("Can't divide by zero.")
+```
+
+---
+
+### Module 25 - More on Lists
+```python
+spam = ['cat', 'rat']
+spam[1] = 'bat'  # Change item
+del spam[0]      # Delete item
+42 in spam       # Check if value exists
+```
+
+---
+
+### Module 26 - range() vs list()
+```python
+list(range(0, 10, 2))  # [0, 2, 4, 6, 8]
+```
+
+---
+
+### Module 27 - Multiple Assignment & Swap
+```python
+a, b = 'A', 'B'
+a, b = b, a
+```
+
+---
+
+### Module 28 - List Methods
+```python
+spam = ['hi']
+spam.append('bye')
+spam.remove('hi')
+spam.sort()
+```
