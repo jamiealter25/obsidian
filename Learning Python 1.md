@@ -116,48 +116,51 @@ else:
 
 ### Module 9 - Loops
 - `while` loops --> It keeps running **as long as** the condition stays `True`.
-	- #example 
-	- count = 1
-	  while count <= 5:
-		    print(count)
-		    count = count + 1
+```Python
+count = 1
+while count <= 5:
+	print(count)
+	count = count + 1
+```
 	
 - `for` loops --> Used when you **already know** how many times to loop.
-	- #example 
-	- for number in range(1, 6):
-	    print(number)
+```Python
+for _ in range(1, 6):
+    print(_)
+```
 ---
 
 ### Module 10 - List, Tuple & Range
 - **`list`** --> A **list is a collection** of many items stored in one place, it uses **square brackets `[ ]`**.
 - Lists are **mutable**, meaning you can **change** the items inside the list.
-	- #example 
-	- `fruits = ["apple", "banana", "cherry"]`
-	- `my_list = [1, 2, 3]`
+```Python
+fruits = ["apple", "banana", "cherry"]
+my_list = [1, 2, 3]
+```
 
 - `tuple` --> A **list is a value** that stores **many items** in one place using `()` parenthesis
 - `( )` means unchangeable/ immutable, so `tuple` is a immutable list
-	- #example 
-	- `my_tuple = (1, 2, 3)`
+```Python
+my_tuple = (1, 2, 3)
+```
 
 - `range()` --> gives you a list of numbers **in order**
 - use with `for` loops
-	- #example 
-	- for i in `range(2, 6)`:
-	    print(i)
+```Python
+for i in range(2, 6):
+    print(i)
+```
 ---
 ### Module 11 – `def` (Define Function)
 - `def` is used to define a function.
 - Inside `()`, write a variable (called a **parameter**).
 - When calling the function, give a value (called an **argument**).
 
-#example 
-
-```python
+```Python
 def greet_person(name):
     print(f"Hello, {name}!")
-
-greet_person("Afrid")```
+    
+greet_person("Afrid")
 ```
 
 ### Module 12 - Modify a List
@@ -166,12 +169,14 @@ greet_person("Afrid")```
 	- `[index]` = change one
 	- `[start:end]` = change some
 	- `[:]` = change all
-
-	- #example 
-	- `fruits = ["apple", "banana", "cherry"]`
+```Python
+fruits = ["apple", "banana", "cherry"]
+```
 	
 	**1. Modify One Item**
-	- `fruits[0] = "orange"`  --> (changes "apple" to "orange")
+	```Python
+	
+```
 
 	**2. Modify Multiple Items**
 	- `fruits[1:3] = ["grape", "kiwi"]` --> (replaces "banana" and "cherry")
