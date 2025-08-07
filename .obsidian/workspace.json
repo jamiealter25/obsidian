@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science & Machine Learning with Python.md",
+                "file": "Learning Python 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Science & Machine Learning with Python"
+              "title": "Learning Python 1"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -183,8 +182,9 @@
   },
   "active": "5cd39689606af5ab",
   "lastOpenFiles": [
-    "Untitled.md",
     "Data Science & Machine Learning with Python.md",
+    "Learning Python 1.md",
+    "Untitled.md",
     "Python/Python Basics.md",
     "SQL Basics.md",
     "Python Learning Roadmap for AI & Machine Learning.md",
