@@ -276,3 +276,4 @@
 - [HackerRank Python & SQL](https://www.hackerrank.com/domains/tutorials/10-days-of-python)  
 - [GitHub: Practical AI Projects](https://github.com/practicalAI/projects)  
 - [Real Python](https://realpython.com/)
+
