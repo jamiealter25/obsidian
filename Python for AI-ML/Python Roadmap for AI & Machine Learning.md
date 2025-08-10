@@ -8,7 +8,7 @@ A step-by-step guide to mastering Python for AI, from beginner to advanced.
 - [ ] [[Control Flow]]: `if`, `else`, `elif`
 - [ ] [[Loops]]: `for`, `while`
 - [ ] [[Functions]] (`def`, `return`)
-- [ ] Lists, Tuples, Dictionaries, Sets
+- [ ] [[Lists, Tuples, Dictionaries, Sets]]
 - [ ] [[String Manipulation]]
 - [ ] [[Basic error handling]] (`try`, `except`)
 

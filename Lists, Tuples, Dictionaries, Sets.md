@@ -43,13 +43,13 @@ my_set.add(4)   # Add new item print(my_set)          # {1, 2, 3, 4}
 ```
 ---
 
-**Quick Summary Table**
+**Quick Summary Table:**
 
-|Type|Ordered?|Changeable?|Allows Duplicates?|Syntax Example|
-|---|---|---|---|---|
-|List|✅|✅|✅|`[1, 2, 3]`|
-|Tuple|✅|❌|✅|`(1, 2, 3)`|
-|Dictionary|✅(3.7+)|✅|❌(keys) ✅(values)|`{"a": 1}`|
-|Set|❌|✅|❌|`{1, 2, 3}`|
+| Type       |  Ordered?  | Changeable? |   Allows Duplicates?   | Syntax Example |
+| ---------- | :--------: | :---------: | :--------------------: | :------------: |
+| List       |    YES     |     YES     |          YES           |  `[1, 2, 3]`   |
+| Tuple      |    YES     |     NO      |          YES           |  `(1, 2, 3)`   |
+| Dictionary | YES (3.7+) |     YES     | NO (keys) YES (values) |   `{"a": 1}`   |
+| Set        |     NO     |     YES     |           NO           |  `{1, 2, 3}`   |
 
 ---
