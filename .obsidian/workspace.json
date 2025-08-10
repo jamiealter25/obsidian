@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Roadmap for AI & Machine Learning.md",
+                "file": "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Roadmap for AI & Machine Learning.md",
+                "file": "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
@@ -197,19 +197,22 @@
   },
   "active": "cc0fe5aec4528606",
   "lastOpenFiles": [
-    "String Manipulation.md",
-    "Python Roadmap for AI & Machine Learning.md",
-    "SQL Basics.md",
-    "T.md",
-    "Data Science & Machine Learning with Python.md",
-    "Learning_Python_Merged.md",
+    "Python for AI-ML/String Manipulation.md",
+    "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
+    "Python for AI-ML/Tips & Tricks.md",
+    "Extra/Advance Obsidian.md",
+    "Untitled",
+    "Extra/Data Science & Machine Learning with Python.md",
+    "Python for AI-ML",
+    "Extra",
+    "Extra/SQL Basics.md",
+    "Extra/Learning_Python_Merged.md",
     "Untitled 1.md",
-    "Learning Python 2.md",
-    "Learning Python 1.md",
+    "Extra/Learning Python 2.md",
+    "Extra/Learning Python 1.md",
     "Python/Python Basics.md",
     "Python/The 20% of Python You Should Master First.md",
     "Python/Setup VS Code Python Environment.md",
-    "Advance Obsidian.md",
     "My Diagram Note.md",
     "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
@@ -217,7 +220,7 @@
     "Python",
     "Git & Github/VsCode Git Sync.md",
     "Git & Github/Obsidian-VScode Git Sync Guide.md",
-    "Useful Apps.md",
+    "Extra/Useful Apps.md",
     "Git & Github/⚠️ Issues & Solutions.md",
     "Git & Github/🧾 Cheat Sheet.md",
     "Git & Github/🧠 Common Words.md",

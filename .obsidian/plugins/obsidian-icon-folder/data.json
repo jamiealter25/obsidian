@@ -35,10 +35,10 @@
     "useInternalPlugins": false
   },
   "Git & Github": "SiGithub",
-  "Useful Apps.md": "SiAndroid",
   "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode",
   "Git & Github/Obsidian-VScode Git Sync Guide.md": "SiGit",
   "Python": "SiPython",
-  "Advance Obsidian.md": "SiObsidian",
-  "SQL Basics.md": "SiSequelize"
+  "Extra/SQL Basics.md": "SiSequelize",
+  "Extra/Useful Apps.md": "SiAndroid",
+  "Extra/Advance Obsidian.md": "SiObsidian"
 }
