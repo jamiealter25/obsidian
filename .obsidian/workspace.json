@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Learning Roadmap for AI & Machine Learning.md",
+                "file": "Python Roadmap for AI & Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Learning Roadmap for AI & Machine Learning"
+              "title": "Python Roadmap for AI & Machine Learning"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "String Manipulation.md",
+                "file": "Python Roadmap for AI & Machine Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String Manipulation"
+              "title": "Python Roadmap for AI & Machine Learning"
             }
           }
         ],
@@ -197,8 +197,8 @@
   },
   "active": "cc0fe5aec4528606",
   "lastOpenFiles": [
-    "Python Learning Roadmap for AI & Machine Learning.md",
     "String Manipulation.md",
+    "Python Roadmap for AI & Machine Learning.md",
     "SQL Basics.md",
     "T.md",
     "Data Science & Machine Learning with Python.md",
