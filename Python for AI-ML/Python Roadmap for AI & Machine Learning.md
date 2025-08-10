@@ -5,7 +5,7 @@ A step-by-step guide to mastering Python for AI, from beginner to advanced.
 
 **What to Learn:**
 - [ ] [[Variables and data types]]
-- [ ] Control flow: `if`, `else`, `elif`
+- [ ] [[Control Flow]]: `if`, `else`, `elif`
 - [ ] Loops: `for`, `while`
 - [ ] Functions (`def`, `return`)
 - [ ] Lists, Tuples, Dictionaries, Sets
