@@ -187,7 +187,7 @@
 
 
 
-# 📚 Self-Learning Roadmap for Data Science & AI (Free Resources)
+# Self-Learning Roadmap for Data Science & AI (Free Resources)
 
 ## Module 0-3: Basic Python Programming
 
@@ -252,7 +252,7 @@
 - [Streamlit + Plotly Dashboards – YouTube](https://www.youtube.com/watch?v=ZZ4B0QUHuNc)  
 - [Tableau Public, MonkeyLearn (Free Tiers)]
 
-## 💼 Module 17-19: Career Prep & Freelancing
+## Module 17-19: Career Prep & Freelancing
 
 ### Week 17 – Career & CV Prep  
 - [Google Data Analytics Certificate](https://grow.google/certificates/data-analytics/)  
