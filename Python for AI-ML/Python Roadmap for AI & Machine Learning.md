@@ -10,7 +10,7 @@ A step-by-step guide to mastering Python for AI, from beginner to advanced.
 - [ ] [[Functions]] (`def`, `return`)
 - [ ] Lists, Tuples, Dictionaries, Sets
 - [ ] [[String Manipulation]]
-- [ ] Basic error handling (`try`, `except`)
+- [ ] [[Basic error handling]] (`try`, `except`)
 
 **Estimated Time:** 2–4 weeks (daily practice)
 
