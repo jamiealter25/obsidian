@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python Learning Roadmap for AI & Machine Learning.md",
+                "file": "Data Science & Machine Learning with Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Learning Roadmap for AI & Machine Learning"
+              "title": "Data Science & Machine Learning with Python"
             }
           }
         ]
@@ -182,15 +182,15 @@
   },
   "active": "90b980613775664f",
   "lastOpenFiles": [
-    "T.md",
     "Learning_Python_Merged.md",
+    "Python Learning Roadmap for AI & Machine Learning.md",
+    "T.md",
     "Untitled 1.md",
     "Learning Python 2.md",
     "Learning Python 1.md",
     "Data Science & Machine Learning with Python.md",
     "Python/Python Basics.md",
     "SQL Basics.md",
-    "Python Learning Roadmap for AI & Machine Learning.md",
     "Python/The 20% of Python You Should Master First.md",
     "Python/Setup VS Code Python Environment.md",
     "Advance Obsidian.md",
