@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Functions"
             }
+          },
+          {
+            "id": "ee983cbe0d708b9b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,6 +184,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
+      "export-graph-view:Export graph view": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -180,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0c45e7e72c8175e",
+  "active": "ee983cbe0d708b9b",
   "lastOpenFiles": [
     "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
     "Python for AI-ML/Variables and data types.md",
