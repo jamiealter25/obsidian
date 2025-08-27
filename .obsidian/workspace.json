@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "36cb48006192ca81",
+            "id": "c69c4c04f2972de0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Vocabularies.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Vocabularies"
             }
           }
         ]
@@ -179,10 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "36cb48006192ca81",
+  "active": "c69c4c04f2972de0",
   "lastOpenFiles": [
-    "Lists, Tuples, Dictionaries, Sets.md",
     "Untitled.md",
+    "Vocabularies.md",
+    "Lists, Tuples, Dictionaries, Sets.md",
     "1.md",
     "Images.md",
     "Python for AI-ML/Functions.md",
@@ -213,7 +218,6 @@
     "Git & Github/VsCode Git Sync.md",
     "Git & Github/Obsidian-VScode Git Sync Guide.md",
     "Extra/Useful Apps.md",
-    "Git & Github/⚠️ Issues & Solutions.md",
     "Untitled.canvas",
     "Git & Github"
   ]
