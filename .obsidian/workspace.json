@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f0328e6d9f4c8e50",
+        "id": "db5aaff5ee10d24d",
         "type": "tabs",
         "children": [
           {
-            "id": "c34a59c1899a2eb0",
+            "id": "ae9e9e4d7281c693",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Questions/DCSA Computer Programming Questions.md",
-                "mode": "source",
+                "file": "Questions/1201.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DCSA Computer Programming Questions"
+              "title": "1201"
+            }
+          },
+          {
+            "id": "f22dbb2e697a4fc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Questions/1302.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1302"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -183,15 +197,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c34a59c1899a2eb0",
+  "active": "f22dbb2e697a4fc1",
   "lastOpenFiles": [
-    "Questions/DCSA Computer Programming Questions.md",
+    "Questions/1201.md",
+    "Questions/1302.md",
+    "Questions/1303.md",
     "Questions",
-    "Untitled.md",
-    "Vocabularies.md",
-    "Lists, Tuples, Dictionaries, Sets.md",
-    "1.md",
-    "Images.md",
+    "Extra/Untitled.md",
+    "Extra/Vocabularies.md",
+    "Extra/Lists, Tuples, Dictionaries, Sets.md",
+    "Extra/1.md",
+    "Extra/Images.md",
     "Python for AI-ML/Functions.md",
     "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
     "Python for AI-ML/Variables and data types.md",
@@ -216,8 +232,6 @@
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
     "Python",
-    "Git & Github/VsCode Git Sync.md",
-    "Git & Github/Obsidian-VScode Git Sync Guide.md",
     "Untitled.canvas",
     "Git & Github"
   ]
