@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lab.md",
+                "file": "Extra/Images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lab"
+              "title": "Images"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -185,6 +184,7 @@
   },
   "active": "44b015c493d7a553",
   "lastOpenFiles": [
+    "Extra/1.md",
     "Lab.md",
     "Questions/1201.md",
     "Questions/1303.md",
@@ -194,7 +194,6 @@
     "Extra/Untitled.md",
     "Extra/Vocabularies.md",
     "Extra/Lists, Tuples, Dictionaries, Sets.md",
-    "Extra/1.md",
     "Extra/Images.md",
     "Python for AI-ML/Functions.md",
     "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
