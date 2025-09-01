@@ -19,8 +19,8 @@ The following external ports were observed on the rear panel of the PC chassis:
 *   **Serial (COM) Port:** A 9-pin male port for legacy device connectivity.
 *   **Parallel (LPT) Port:** A 25-pin female port, historically used for connecting printers.
 
-> **Picture Reference Needed**
-> A clear, labeled photograph of the PC's rear I/O panel should be attached here.
+> ==**Picture Reference Needed**==
+> ==A clear, labeled photograph of the PC's rear I/O panel should be attached here.==
 
 **2. Internal Interfaces (Motherboard):**
 Upon opening the PC case, the following internal interfaces were identified on the motherboard:
@@ -29,8 +29,8 @@ Upon opening the PC case, the following internal interfaces were identified on t
 *   **SATA (Serial ATA) Ports:** Compact L-shaped ports for connecting data cables from storage devices like hard drives and optical drives.
 *   **Power Connectors:** The main 24-pin ATX power connector and a supplementary CPU power connector, which receive power from the PSU.
 
-> **Picture Reference Needed**
-> A labeled photograph of the PC's motherboard, clearly indicating the RAM slots, expansion slots, and SATA ports, should be attached here.
+> ==**Picture Reference Needed**==
+> ==A labeled photograph of the PC's motherboard, clearly indicating the RAM slots, expansion slots, and SATA ports, should be attached here.==
 
 **Conclusion:**
 The key external and internal interfaces of the PC were successfully identified. This practical observation demonstrates the modular architecture of a computer system and clarifies how peripheral devices and internal components integrate with the motherboard to form a cohesive, functional unit.
@@ -58,11 +58,11 @@ The assembly of the PC followed a systematic procedure as outlined below:
 8.  **Front Panel Wiring:** Connectors for the chassis's power switch, reset switch, status LEDs, and front-panel USB/audio ports were wired to the appropriate headers on the motherboard.
 9.  **Final Inspection:** All connections were verified for security before the chassis side panels were reattached.
 
-> **Picture Reference Needed**
-> A series of photographs should be attached, documenting:
-> 1.  The motherboard with the CPU and RAM installed.
-> 2.  The motherboard secured inside the PC chassis.
-> 3.  The final assembly showing connected storage drives and the PSU.
+> ==**Picture Reference Needed**==
+> ==A series of photographs should be attached, documenting:==
+> ==1.  The motherboard with the CPU and RAM installed.==
+> ==2.  The motherboard secured inside the PC chassis.==
+> ==3.  The final assembly showing connected storage drives and the PSU.==
 
 **Conclusion:**
 The assembly of a PC is a methodical process demanding precision and careful execution. Following the established sequence ensures that all components are installed correctly, resulting in a functional system. This exercise provided practical insight into the physical integration of the computer's core hardware.
@@ -93,8 +93,8 @@ The removal procedure was executed in the reverse order of installation: disconn
 **CD-ROM Drive Analysis:**
 The installation and removal process for the 5.25-inch CD-ROM drive was observed to be functionally identical to that of the HDD. Both procedures underscore the modular nature of PC storage, allowing for straightforward upgrades and replacements.
 
-> **Picture Reference Needed**
-> A photograph showing the installed HDD in its drive bay, with clearly visible SATA data and power connections, should be attached.
+> ==**Picture Reference Needed**==
+> ==A photograph showing the installed HDD in its drive bay, with clearly visible SATA data and power connections, should be attached.==
 
 **Conclusion:**
 The physical management of secondary storage devices is a fundamental skill. The process is standardized, requiring only the mechanical securing of the drive and the connection of two essential cables. This lab provided direct, hands-on experience with these critical hardware components.
@@ -130,8 +130,8 @@ The Control Panel was accessed via the Start Menu. It contains a collection of a
     *   **Display:** Contains settings for adjusting screen resolution, icon and text scaling, and the desktop background.
     *   **Taskbar and Start Menu:** Provides options to customize the behavior and appearance of these core UI elements.
 
-> **Picture Reference Needed**
-> A screenshot of the main Control Panel interface, displaying the primary categories of utilities, should be attached here.
+> ==**Picture Reference Needed**==
+> ==A screenshot of the main Control Panel interface, displaying the primary categories of utilities, should be attached here.==
 
 **Conclusion:**
 The Control Panel is a powerful and indispensable tool within the Windows OS. It centralizes system management, providing an organized and accessible interface for users to configure hardware, software, and security settings. Proficiency in navigating the Control Panel is essential for effective system maintenance and personalization.
