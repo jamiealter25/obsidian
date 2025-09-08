@@ -19,3 +19,6 @@
 | Magic Hour         | Generates multiple images per prompt; no sign-up required                     | [magichour.ai](https://magichour.ai/products/ai-image-generator) |
 | Fotor AI Generator | Offers various artistic styles; user-friendly interface                       | [fotor.com](https://www.fotor.com/features/ai-image-generator/)  |
 | Ideogram           | Excels at generating legible text within images                               | [ideogram.ai](https://ideogram.ai/)                              |
+
+Image upscale
+https://imgupscaler.com/
