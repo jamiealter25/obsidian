@@ -11,10 +11,14 @@
             "id": "785ce3caa2d536cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1303 answer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1303 answer"
             }
           }
         ]
@@ -180,6 +184,7 @@
   },
   "active": "785ce3caa2d536cc",
   "lastOpenFiles": [
+    "1303 answer.md",
     "Extra/Images.md",
     "Questions/1201 answer.md",
     "Extra/1.md",
@@ -208,7 +213,6 @@
     "Extra/Learning_Python_Merged.md",
     "Extra/Learning Python 2.md",
     "Extra/Learning Python 1.md",
-    "Python/Python Basics.md",
     "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
