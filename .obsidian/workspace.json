@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bec1975dd104315a",
+        "id": "c4263346b4de88a8",
         "type": "tabs",
         "children": [
           {
-            "id": "0f0ab680b081d138",
+            "id": "3e0ee5dca8790ada",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -178,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b0b77f3d8ae4cdcd",
+  "active": "3e0ee5dca8790ada",
   "lastOpenFiles": [
+    "Questions/1304 MCQ solve.md",
     "Questions/1303 MCQ solve.md",
     "Questions/1302 MCQ solve.md",
     "Questions/1201 MCQ solve.md",
@@ -208,7 +210,6 @@
     "Extra/Data Science & Machine Learning with Python.md",
     "Python for AI-ML",
     "Extra",
-    "Extra/SQL Basics.md",
     "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
