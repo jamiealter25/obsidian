@@ -1,7 +1,3 @@
-This list includes all questions found in the provided examination papers (Sources through), presented exactly as they appear in the source documents.
-
----
-
 ## Excerpts from "191. (1302) Office Automation - Essay.pdf"
 
 ### Section A: Short Questions
