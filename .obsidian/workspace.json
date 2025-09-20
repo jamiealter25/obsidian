@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c4263346b4de88a8",
+        "id": "b21f680542619598",
         "type": "tabs",
         "children": [
           {
-            "id": "3e0ee5dca8790ada",
+            "id": "66aeca428c924585",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -179,8 +178,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e0ee5dca8790ada",
+  "active": "66aeca428c924585",
   "lastOpenFiles": [
+    "Elaborations.md",
     "Questions/1304 MCQ solve.md",
     "Questions/1303 MCQ solve.md",
     "Questions/1302 MCQ solve.md",
@@ -207,7 +207,6 @@
     "Python for AI-ML/Loops.md",
     "Python for AI-ML/Tips & Tricks.md",
     "Extra/Advance Obsidian.md",
-    "Extra/Data Science & Machine Learning with Python.md",
     "Python for AI-ML",
     "Extra",
     "Advance Obsidian",
