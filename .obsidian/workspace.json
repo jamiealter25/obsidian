@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "1302 Answer"
             }
+          },
+          {
+            "id": "0ec59502df6c826f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -183,9 +197,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66aeca428c924585",
+  "active": "0ec59502df6c826f",
   "lastOpenFiles": [
     "1302 Answer.md",
+    "Untitled.md",
     "Elaborations.md",
     "Questions/1304 MCQ solve.md",
     "Questions/1303 MCQ solve.md",
@@ -211,7 +226,6 @@
     "Python for AI-ML/Basic error handling.md",
     "Python for AI-ML/String Manipulation.md",
     "Python for AI-ML/Loops.md",
-    "Python for AI-ML/Tips & Tricks.md",
     "Python for AI-ML",
     "Extra",
     "Advance Obsidian",
