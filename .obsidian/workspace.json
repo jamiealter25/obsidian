@@ -4,95 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b21f680542619598",
+        "id": "296db732f540b18d",
         "type": "tabs",
         "children": [
           {
-            "id": "66aeca428c924585",
+            "id": "f611b316e17e9dc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 Answer.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1302 Answer"
-            }
-          },
-          {
-            "id": "0ec59502df6c826f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 Written Q (Serially).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1302 Written Q (Serially)"
-            }
-          },
-          {
-            "id": "dbeea68bfc142c73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 Written Q (Topicwise).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1302 Written Q (Topicwise)"
-            }
-          },
-          {
-            "id": "4583740ad6219424",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 Written Answer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1302 Written Answer"
-            }
-          },
-          {
-            "id": "99bb2bd58cbe5d13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 MCQ (Serially).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1302 MCQ (Serially)"
-            }
-          },
-          {
-            "id": "ca8d92c86842197f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1302 Written Q (Topicwise).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1302 Written Q (Topicwise)"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,11 +27,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76bc3aea580e8c6b",
+        "id": "b48b66bb806cfd6f",
         "type": "tabs",
         "children": [
           {
-            "id": "b0b77f3d8ae4cdcd",
+            "id": "56689eaa49a427a1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -119,7 +44,7 @@
             }
           },
           {
-            "id": "a0d433ddba853d89",
+            "id": "fc4fc936c8fffd35",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -136,7 +61,7 @@
             }
           },
           {
-            "id": "4a2b943adf800917",
+            "id": "df54122525f9f211",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -149,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -242,7 +168,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
+      "bases:Create new base": true,
       "export-graph-view:Export graph view": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
@@ -253,14 +179,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca8d92c86842197f",
+  "active": "f611b316e17e9dc9",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "1302 Answer.md",
+    "1302 Written Q (Topicwise).md",
     "1302 Written Q (Serially).md",
     "1302 Written Answer.md",
     "1302 MCQ (Topicwise).md",
     "1302 MCQ (Serially).md",
-    "1302 Answer.md",
-    "1302 Written Q (Topicwise).md",
     "Elaborations.md",
     "Questions/1304 MCQ solve.md",
     "Questions/1303 MCQ solve.md",
@@ -281,7 +209,6 @@
     "Extra/Lists, Tuples, Dictionaries, Sets.md",
     "Python for AI-ML/Functions.md",
     "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
-    "Python for AI-ML/Variables and data types.md",
     "Python for AI-ML",
     "Extra",
     "Advance Obsidian",
