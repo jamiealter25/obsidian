@@ -11,13 +11,30 @@
             "id": "f611b316e17e9dc9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1304 MCQ Solve.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1304 MCQ Solve"
+            }
+          },
+          {
+            "id": "92c2fa8dee901c66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -179,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f611b316e17e9dc9",
+  "active": "92c2fa8dee901c66",
   "lastOpenFiles": [
+    "1304 MCQ Solve.md",
     "Untitled.base",
     "Untitled 1.base",
     "1302 Answer.md",
