@@ -1,9 +1,3 @@
-Here are the answers to the questions from the provided exam papers, categorized and structured for your exam preparation.
-
-***
-
-## Repeated / Similar Questions
-
 ### **Section A: Short Questions**
 
 #### **Topic: Visual Basic Fundamentals (Advantages, Event-Driven Programming)**
