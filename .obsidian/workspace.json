@@ -11,10 +11,14 @@
             "id": "c0c2dc2c7b0606d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1304 Written Answers.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1304 Written Answers"
             }
           }
         ]
@@ -74,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -181,6 +184,7 @@
   },
   "active": "c0c2dc2c7b0606d7",
   "lastOpenFiles": [
+    "1304 Written Answers.md",
     "1304 MCQ Solve.md",
     "1304 MCQ Solve (2).md",
     "1304 All Questions.md",
@@ -210,7 +214,6 @@
     "Questions",
     "Extra/Untitled.md",
     "Extra/Vocabularies.md",
-    "Extra/Lists, Tuples, Dictionaries, Sets.md",
     "Python for AI-ML",
     "Extra",
     "Advance Obsidian",
