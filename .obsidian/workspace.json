@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/Py.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,12 +201,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da03a14a9865510c",
+  "active": "334fee1c69af5676",
   "lastOpenFiles": [
+    "Python/Py.md",
+    "Python/The 20% of Python You Should Master First.md",
     "Python/Extra.md",
     "Python/Python Basics.md",
-    "Python/The 20% of Python You Should Master First.md",
-    "Python/Py.md",
     "Python/Setup VS Code Python Environment.md",
     "Python for AI-ML/Control Flow.md",
     "Python for AI-ML/String Manipulation.md",

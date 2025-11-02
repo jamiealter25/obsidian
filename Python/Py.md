@@ -39,6 +39,22 @@ name = "Afrid"
 - Variables must start with a **letter** or **underscore** (`_`), not a number
 - Case-sensitive (`age` ≠ `Age`)
 - Avoid Python keywords like `for`, `if`, `while` etc.
+#### Different ways to print a variable and a message
+```python
+name = "Afrid"
+
+# 1. Print the variable directly
+print(name)
+
+# 2. Print with string concatenation (+)
+print("Hi," + name)
+
+# 3. Print using a comma (adds a space automatically)
+print("Hi,", name)
+
+# 4. Print using an f-string (formatted string)
+print(f"Hello, {name}")  # The 'f' lets you embed variables directly inside the string
+```
 ---
 # Data Types
 
@@ -213,9 +229,21 @@ greet_person("Afrid")
 ```
 ---
 # Classes
+- `class` is used to **group related data and methods** together
+- **Methods** are functions defined inside a class
+- Methods can use and modify **attributes** (data stored in `self`)
+```python
+class Student:
+    def __init__(self, name):
+        self.name = name
+    
+    def greet(self):
+        print(f"Hello, {self.name}!")
 
-
-
+s = Student("Afrid")
+s.greet()  # Output: Hello, Afrid!
+```
+---
 # Basic Error Handling
 
 - Used to **handle runtime errors** without crashing the program
@@ -271,3 +299,4 @@ squares = [x * x for x in range(5)]
 print(squares)  # Output: [0, 1, 4, 9, 16]
 ```
 ---
+
