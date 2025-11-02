@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "8ef60781870bda7c",
+            "id": "334fee1c69af5676",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -211,11 +211,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ef60781870bda7c",
+  "active": "334fee1c69af5676",
   "lastOpenFiles": [
-    "Python for AI-ML/Variables and data types.md",
-    "Python/Py.md",
     "Python/Python Basics.md",
+    "Python for AI-ML/Variables and data types.md",
+    "Python/Extra.md",
+    "Python/Py.md",
     "Extra/Advance Obsidian.md",
     "Python for AI-ML/Basic error handling.md",
     "Extra/Images.md",
@@ -241,7 +242,6 @@
     "Questions/Elaborations.md",
     "Questions/1304 MCQ solve.md",
     "Questions/1303 MCQ solve.md",
-    "Questions/1302 MCQ solve.md",
     "Questions",
     "Python for AI-ML",
     "Extra",
