@@ -24,7 +24,7 @@ This is a multi-line comment
 ```
 ---
 # Print
-- Use `print()` to **results** on the screen
+- Use `print()` to **display results** on the screen
 ```python
 print(20+5)
 ```
@@ -316,4 +316,3 @@ squares = [x * x for x in range(5)]
 print(squares)  # Output: [0, 1, 4, 9, 16]
 ```
 ---
-
