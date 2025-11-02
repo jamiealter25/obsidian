@@ -91,6 +91,16 @@ name = input("Enter your name: ")
 weight = float(input("Enter your weight: "))
 ```
 ---
+# Importing Modules
+
+- **Modules** let you use code written by others.
+- **Built-in modules**: `math`, `random`, `datetime`
+- **External libraries** (installed separately): `numpy`, `pandas` — commonly used in AI and data science.
+```python
+import math
+print(math.sqrt(16))
+```
+---
 # Use of colon (:)
 - Whenever the next line is indented, the current line must end with `:`
 - use case --> `if`, `elif`, `else`, `for`, `while`, `def` (function definitions), `class` (class definitions)
@@ -203,4 +213,23 @@ greet_person("Afrid")
 ```
 ---
 # Classes
-- 
+
+
+
+# Basic Error Handling
+
+- Used to **handle runtime errors** without crashing the program
+- `try` --> code that might cause an error
+- `except` --> handles the error if it occurs
+- `finally` --> optional, runs no matter what
+```python
+try:
+	x = 5 / 0
+	
+except ZeroDivisionError:
+	print("Cannot divide by zero!")
+	
+finally:
+	print("Done")
+```
+---
