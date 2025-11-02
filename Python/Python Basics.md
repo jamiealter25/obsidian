@@ -131,7 +131,8 @@
 - `tuple` --> A **list is a value** that stores **many items** in one place using `()` parenthesis
 - `( )` means unchangeable/ immutable, so `tuple` is a immutable list
 	- #example 
-	- `my_tuple = (1, 2, 3)`
+	- my_tuple = ("hello", 123, 3.14, True, [1, 2, 3])
+print(my_tuple)
 
 - `range()` --> gives you a list of numbers **in order**
 - use with `for` loops
@@ -140,19 +141,14 @@
 	    print(i)
 ---
 ### Module 11 – `def` (Define Function)
-- `def` is used to define a function.
-- Inside `()`, write a variable (called a **parameter**).
-- When calling the function, give a value (called an **argument**).
-
-#example 
-
+- `def function_name(parameters):`
+- `def` is used to define a function. **parameter** is a placeholder, **argument** is the value given while calling the function.
 ```python
 def greet_person(name):
     print(f"Hello, {name}!")
 
 greet_person("Afrid")
 ```
-
 ---
 
 ### Module 12 - Modify a List
