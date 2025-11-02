@@ -233,3 +233,41 @@ finally:
 	print("Done")
 ```
 ---
+# File I/O (Input & Output)
+
+- Used to **read from** and **write to** files.
+- Modes:
+    - `"r"` → read (file must exist)
+    - `"w"` → write (overwrites existing content)
+    - `"a"` → append (adds to the end of the file)
+    - `"x"` → create (fails if file already exists)
+- The `with open()` statement automatically **closes the file** after use.
+```python
+# Read
+with open("data.txt", "r") as file:
+    content = file.read()
+    print(content)
+
+# Write (overwrite)
+with open("data.txt", "w") as file:
+    file.write("Hello, Afrid!")
+
+# Append
+with open("data.txt", "a") as file:
+    file.write("\nWelcome back!")
+
+# Create new file (error if it already exists)
+with open("newfile.txt", "x") as file:
+    file.write("This file was just created.")
+```
+---
+# List Comprehensions
+
+- A **compact way** to create lists using a single line of code.
+- Combines **loop** and **expression** inside `[]`.
+- Often used for **cleaner, faster** list creation.
+```python
+squares = [x * x for x in range(5)]
+print(squares)  # Output: [0, 1, 4, 9, 16]
+```
+---

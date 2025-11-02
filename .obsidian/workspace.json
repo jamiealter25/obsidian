@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/The 20% of Python You Should Master First.md",
+                "file": "Python/Extra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The 20% of Python You Should Master First"
+              "title": "Extra"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,18 +201,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "334fee1c69af5676",
+  "active": "da03a14a9865510c",
   "lastOpenFiles": [
-    "Python/Py.md",
-    "Python/The 20% of Python You Should Master First.md",
-    "Python/Setup VS Code Python Environment.md",
+    "Python/Extra.md",
     "Python/Python Basics.md",
+    "Python/The 20% of Python You Should Master First.md",
+    "Python/Py.md",
+    "Python/Setup VS Code Python Environment.md",
     "Python for AI-ML/Control Flow.md",
     "Python for AI-ML/String Manipulation.md",
     "Python for AI-ML/Functions.md",
     "Python for AI-ML/Loops.md",
     "Python for AI-ML/Variables and data types.md",
-    "Python/Extra.md",
     "Extra/Advance Obsidian.md",
     "Python for AI-ML/Basic error handling.md",
     "Extra/Images.md",
