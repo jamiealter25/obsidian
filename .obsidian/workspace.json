@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +211,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38c2167e8252bac3",
+  "active": "8ef60781870bda7c",
   "lastOpenFiles": [
-    "Python/Py.md",
     "Python for AI-ML/Variables and data types.md",
+    "Python/Py.md",
     "Python/Python Basics.md",
     "Extra/Advance Obsidian.md",
     "Python for AI-ML/Basic error handling.md",

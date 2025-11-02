@@ -42,7 +42,7 @@ my-age = 20 # dash not allowed → error
 | --------- | ------------------------------- | --------------------- |
 | `int`     | Integer (whole number)          | `20`, `-5`, `0`       |
 | `float`   | Decimal number (floating point) | `3.14`, `0.5`, `-1.0` |
-| `str`     | String (text)                   | `"Afrid"`, `'Hello!'` |
+| `str`     | String (text)                   | `"Afrid"`, `'Hello!"` |
 | `bool`    | Boolean (True or False)         | `True`, `False`       |
 
 ---
