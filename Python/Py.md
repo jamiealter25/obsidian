@@ -98,10 +98,17 @@ print(f"Hello, {name}")  # The 'f' lets you embed variables directly inside the 
 | `-=`         | `x -= 2`     | `x = x - 2`         |
 | `*=`         | `total *= 3` | `total = total * 3` |
 | `/=`         | `score /= 2` | `score = score / 2` |
+#### Logical Operators
+
+| **Operator** | **Meaning**                                      | **Example**       | **Result** |
+| ------------ | ------------------------------------------------ | ----------------- | ---------- |
+| `and`        | True if **both conditions** are True             | `5 > 2 and 3 < 4` | `True`     |
+| `or`         | True if **at least one condition** is True       | `5 > 2 or 3 > 5`  | `True`     |
+| `not`        | Reverses the result (True → False, False → True) | `not(5 > 2)`      | `False`    |
 
 ---
 # User Input
-- User input is taken as **string**, but can be converted.
+- User input is taken as **string**, but can be converted
 ```python
 name = input("Enter your name: ")
 weight = float(input("Enter your weight: "))
@@ -109,9 +116,9 @@ weight = float(input("Enter your weight: "))
 ---
 # Importing Modules
 
-- **Modules** let you use code written by others.
+- **Modules** let you use code written by others
 - **Built-in modules**: `math`, `random`, `datetime`
-- **External libraries** (installed separately): `numpy`, `pandas` — commonly used in AI and data science.
+- **External libraries** (installed separately): `numpy`, `pandas` — commonly used in AI and data science
 ```python
 import math
 print(math.sqrt(16))
@@ -220,16 +227,26 @@ for i in range(2, 6):
 ---
 # Function Definition (`def`)
 - `def function_name(parameters):` is a function declaration
-- `def` is used to define a function. **parameter** is a placeholder, **argument** is the value given while calling the function.
+- **parameter** → placeholder; **argument** → actual value passed while calling
+- **`return`** → sends a value back from the function so it can be used later
 ```python
+# Function without return
 def greet_person(name):
     print(f"Hello, {name}!")
 
-greet_person("Afrid")
+greet_person("Afrid")  # Output: Hello, Afrid!
+
+# Function with return
+def add_numbers(a, b):
+    return a + b
+
+result = add_numbers(5, 3)
+print(result)  # Output: 8
 ```
 ---
 # Classes
-- `class` is used to **group related data and methods** together
+- `class` --> groups related data and methods.
+- **self** --> represents the instance of the class. Used to access attributes and methods.
 - **Methods** are functions defined inside a class
 - Methods can use and modify **attributes** (data stored in `self`)
 ```python

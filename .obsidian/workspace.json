@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/Py.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,10 +201,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "334fee1c69af5676",
+  "active": "da03a14a9865510c",
   "lastOpenFiles": [
-    "Python/Py.md",
     "Python/The 20% of Python You Should Master First.md",
+    "Python/Py.md",
     "Python/Extra.md",
     "Python/Python Basics.md",
     "Python/Setup VS Code Python Environment.md",
