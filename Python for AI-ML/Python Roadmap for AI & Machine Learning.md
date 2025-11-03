@@ -4,13 +4,13 @@ A step-by-step guide to mastering Python for AI, from beginner to advanced.
 ## Stage 1: Python Foundations (Must-Know)
 
 **What to Learn:**
-- [ ] [[Variables and data types]]
-- [ ] [[Control Flow]]: `if`, `else`, `elif`
-- [ ] [[Loops]]: `for`, `while`
-- [ ] [[Functions]] (`def`, `return`)
-- [ ] [[Lists, Tuples, Dictionaries, Sets]]
-- [ ] [[String Manipulation]]
-- [ ] [[Basic error handling]] (`try`, `except`)
+- [ ] Variables and data types
+- [ ] Control Flow: `if`, `else`, `elif`
+- [ ] Loops: `for`, `while`
+- [ ] Functions (`def`, `return`)
+- [ ] Lists, Tuples, Dictionaries, Sets
+- [ ] String Manipulation
+- [ ] Basic error handling (`try`, `except`)
 
 **Estimated Time:** 2–4 weeks (daily practice)
 

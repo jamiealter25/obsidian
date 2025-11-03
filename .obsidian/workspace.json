@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python for AI-ML/Loops.md",
-                "mode": "preview",
+                "file": "Python for AI-ML/String Manipulation.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Loops"
+              "title": "String Manipulation"
             }
           }
         ]
@@ -174,17 +174,19 @@
   },
   "active": "da03a14a9865510c",
   "lastOpenFiles": [
-    "Python for AI-ML/Functions.md",
+    "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
     "Python for AI-ML/Control Flow.md",
+    "Python for AI-ML/Loops.md",
+    "Python for AI-ML/String Manipulation.md",
+    "Python for AI-ML/Tips & Tricks.md",
+    "Python for AI-ML/Variables and data types.md",
+    "Python for AI-ML/Functions.md",
     "Python for AI-ML/Basic error handling.md",
     "Python/Python for Begineers.md",
     "Python/Extra.md",
     "Python/The 20% of Python You Should Master First.md",
     "Python/Python Basics.md",
     "Python/Setup VS Code Python Environment.md",
-    "Python for AI-ML/String Manipulation.md",
-    "Python for AI-ML/Loops.md",
-    "Python for AI-ML/Variables and data types.md",
     "Extra/Advance Obsidian.md",
     "Extra/Images.md",
     "Extra/Untitled.md",
@@ -201,8 +203,6 @@
     "Untitled.base",
     "Untitled 1.base",
     "Questions/1302 Answer.md",
-    "Questions/1302 Written Q (Topicwise).md",
-    "Questions/1302 Written Q (Serially).md",
     "Questions",
     "Python for AI-ML",
     "Extra",
