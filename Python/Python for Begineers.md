@@ -243,6 +243,22 @@ def add_numbers(a, b):
 result = add_numbers(5, 3)
 print(result)  # Output: 8
 ```
+#### Calling a Function
+- To run the function, just call its name with parentheses:
+```Python
+greet_person("Afrid")  # Output: Hello, Afrid!
+```
+---
+# Returning Values
+- Functions can send back a value using `return`
+- It lets you **use the result** later in your program.
+- Without `return`, functions just do something but don’t send a result back.
+```Python
+def add(a, b):
+	return a + b
+result = add(5, 3)
+	print(result)    # 8
+```
 ---
 # Classes
 - `class` --> groups related data and methods.

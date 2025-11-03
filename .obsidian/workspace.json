@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python for AI-ML/String Manipulation.md",
+                "file": "Python/Others.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String Manipulation"
+              "title": "Others"
+            }
+          },
+          {
+            "id": "0dfefed57e47af38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Basic Python Projects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basic Python Projects"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,21 +187,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da03a14a9865510c",
+  "active": "56689eaa49a427a1",
   "lastOpenFiles": [
-    "Python for AI-ML/Python Roadmap for AI & Machine Learning.md",
-    "Python for AI-ML/Control Flow.md",
-    "Python for AI-ML/Loops.md",
-    "Python for AI-ML/String Manipulation.md",
-    "Python for AI-ML/Tips & Tricks.md",
-    "Python for AI-ML/Variables and data types.md",
+    "Python/Basic Python Projects.md",
+    "Python/Python Roadmap for AI & Machine Learning.md",
+    "Python/Others.md",
+    "Python/Python Basics.md",
+    "Python/Python for Begineers.md",
+    "Python/Setup VS Code Python Environment.md",
+    "Python/The 20% of Python You Should Master First.md",
     "Python for AI-ML/Functions.md",
     "Python for AI-ML/Basic error handling.md",
-    "Python/Python for Begineers.md",
+    "Python for AI-ML/Control Flow.md",
+    "Python for AI-ML/Loops.md",
+    "Python for AI-ML/Variables and data types.md",
+    "Python for AI-ML/Tips & Tricks.md",
     "Python/Extra.md",
-    "Python/The 20% of Python You Should Master First.md",
-    "Python/Python Basics.md",
-    "Python/Setup VS Code Python Environment.md",
     "Extra/Advance Obsidian.md",
     "Extra/Images.md",
     "Extra/Untitled.md",
@@ -202,7 +218,6 @@
     "Untitled",
     "Untitled.base",
     "Untitled 1.base",
-    "Questions/1302 Answer.md",
     "Questions",
     "Python for AI-ML",
     "Extra",

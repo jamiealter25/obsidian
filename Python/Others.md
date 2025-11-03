@@ -1,3 +1,5 @@
+# String Manipulation
+
  **1. Creating Strings**
 ```Python
 s1 = "Hello"
@@ -82,5 +84,55 @@ name = "Afrid"
 age = 20
 print(f"My name is {name} and I am {age} years old.")
 print("My name is {} and I am {} years old.".format(name, age))
+```
+---
+
+- In array to select the last item, put [-1]
+```Python
+my_list = [1,2,3]
+print(my_list[-1])    #output will be 3
+```
+---
+- `spe` (separate) won't work sometimes. check below.
+```Python
+print("Afrid"*3, sep = " ")          # output - AfridAfridAfrid
+print(" ".join("Afrid" * 3))         # output - A f r i d A f r i d A f r i d
+print(" ".join(["Afrid"] * 3))       # output - Afrid Afrid Afrid
+```
+---
+
+#### 4. Checking Data Types
+
+- Use `type()` function:
+```Python
+a = 10
+b = 3.14
+c = "Hello"
+d = True
+print(type(a))  # <class 'int'>
+print(type(b))  # <class 'float'>
+print(type(c))  # <class 'str'>
+print(type(d))  # <class 'bool'>
+```
+---
+
+#### 5. Changing Data Types (Type Casting)
+
+- You can convert one data type to another:
+```Python
+num_str = "100"
+num_int = int(num_str)     # Convert string to int
+num_float = float(num_str) # Convert string to float
+print(num_int + 50)        # 150
+print(num_float + 0.5)     # 100.5
+```
+---
+
+#### 6. Variables are Dynamic
+
+- Python lets you change the value and type of a variable anytime:
+```Python
+x = 10      # x is int
+x = "ten"   # now x is str
 ```
 ---

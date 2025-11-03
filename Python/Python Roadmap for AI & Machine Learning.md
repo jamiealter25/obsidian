@@ -64,3 +64,16 @@ A step-by-step guide to mastering Python for AI, from beginner to advanced.
 | Intermediate | ✅ Strongly needed  | Real-world programming skills       |
 | Applied AI   | ✅ Essential        | Use ML/data science libraries       |
 | Advanced     | ❌ Optional at start| Optimize and scale AI solutions     |
+## The 20% Python you should master first
+
+| Topic                | Why It Matters                           |
+| -------------------- | ---------------------------------------- |
+| Variables & types    | Foundation of everything                 |
+| Loops & conditionals | Core logic handling                      |
+| Lists/dicts          | You use them *all the time*              |
+| Functions            | Code reuse & modularity                  |
+| Classes (OOP)        | Needed for real-world code, AI libraries |
+| File I/O             | For working with data                    |
+| Error handling       | To make stable apps                      |
+| List comprehensions  | Clean & readable logic                   |
+| Modules              | Use others' code smartly                 |
