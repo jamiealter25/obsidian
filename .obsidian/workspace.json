@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da03a14a9865510c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Others.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Others"
-            }
-          },
-          {
             "id": "0dfefed57e47af38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Basic Python Projects.md",
+                "file": "Python/SQL Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basic Python Projects"
+              "title": "SQL Basics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,9 +174,17 @@
   },
   "active": "56689eaa49a427a1",
   "lastOpenFiles": [
-    "Python/Basic Python Projects.md",
-    "Python/Python Roadmap for AI & Machine Learning.md",
     "Python/Others.md",
+    "Python/SQL Basics.md",
+    "Extra/Data Science & Machine Learning with Python.md",
+    "Extra/Untitled.md",
+    "Extra/Lists, Tuples, Dictionaries, Sets.md",
+    "Extra/Learning_Python_Merged.md",
+    "Extra/Learning Python 2.md",
+    "Extra/Learning Python 1.md",
+    "Python/Basic Python Projects.md",
+    "Extra/1.md",
+    "Python/Python Roadmap for AI & Machine Learning.md",
     "Python/Python Basics.md",
     "Python/Python for Begineers.md",
     "Python/Setup VS Code Python Environment.md",
@@ -205,16 +198,8 @@
     "Python/Extra.md",
     "Extra/Advance Obsidian.md",
     "Extra/Images.md",
-    "Extra/Untitled.md",
-    "Extra/1.md",
     "Questions/Lab.md",
     "Physics all.md",
-    "Questions/L.md",
-    "Questions/Practical.md",
-    "Questions/1304 Written Answers.md",
-    "Questions/1304 MCQ Solve 1.md",
-    "Questions/1304 MCQ Solve (2).md",
-    "Questions/1304 All Questions.md",
     "Untitled",
     "Untitled.base",
     "Untitled 1.base",
