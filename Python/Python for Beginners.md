@@ -248,6 +248,25 @@ print(result)  # Output: 8
 ```Python
 greet_person("Afrid")  # Output: Hello, Afrid!
 ```
+#### Attributes
+- **Attributes** are **properties or characteristics** of something.
+- They **store information** and **do not need parentheses**.
+```python
+object.color    # the color of the object
+object.size     # the size of the object
+```
+#### Methods
+- **Methods** are **actions or things an object can do**.
+- They **require parentheses** because you are calling a function.
+```python
+object.move()   # tells the object to move
+object.show()   # tells the object to display itself
+```
+
+>[!tip]
+> **Attributes = “what it has”** → properties, details
+> **Methods = “what it can do”** → actions, behaviors
+
 ---
 # Returning Values
 - Functions can send back a value using `return`
