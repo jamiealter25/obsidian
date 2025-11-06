@@ -344,3 +344,8 @@ RENAME TO film_list;
 DROP TABLE IF EXISTS table_name;
 ```
 ---
+
+>[!tip]
+>- **Rows = records / entries**
+>- **Columns = data fields / attributes**
+
