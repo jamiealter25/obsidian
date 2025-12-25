@@ -61,7 +61,7 @@ VarA.commit()
 VarA.close()
 ```
 
-- Write the whole code inside `With....` to `.commit()` and `.close()` automatically.
+- Write the whole code inside `With....` to `.commit()` automatically.
 ```Python
 with sqlite3.connect('YourFileName.db') as VarA:
 	# write your whole code here
