@@ -34,6 +34,14 @@ VarB.executescript("""
 """)
 ```
 
+- Fetch data from `cursor.execute()` and show in tuple list.
+- `fetchone()` – gets **one row** from the result.
+- `fetchall()` – gets **all rows** as a list of tuples.
+- `fetchmany(n)` – gets **`n` rows** as a list of tuples.
+
+
+
+
 - Save changes in database after editing.
 ```Python
 VarA.commit()
@@ -46,7 +54,8 @@ VarA.close()
 
 - Write the whole code inside `With....` to `.commit()` and `.close()` automatically.
 ```Python
-
+with sqlite3.connect('YourFileName.db') as VarA:
+	# write your whole code here
 ```
 
 - Basic necessary methods in sqlite3
