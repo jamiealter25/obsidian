@@ -1,0 +1,16 @@
+/* Applies grey color to all main text, excluding code blocks */
+body {
+  color: #808080; /* A standard grey color */
+}
+
+/* Override for inline code to keep its original color */
+.cm-inline-code, .markdown-preview-view code {
+  color: var(--text-code) !important; /* Uses the theme's default code color */
+}
+
+/* Override for fenced code blocks to keep their original colors/syntax highlighting */
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock,
+.markdown-preview-view pre.language-*,
+.markdown-source-view.mod-cm6 .cm-panels-code {
+  color: initial !important; /* Reverts to the default color/syntax highlighting */
+}

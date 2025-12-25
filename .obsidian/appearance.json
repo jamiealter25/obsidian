@@ -1,6 +1,7 @@
 {
   "enabledCssSnippets": [
-    "snip"
+    "snip",
+    "grey"
   ],
   "showRibbon": false,
   "showViewHeader": true
