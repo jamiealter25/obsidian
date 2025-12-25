@@ -34,13 +34,22 @@ VarB.executescript("""
 """)
 ```
 
-- Fetch data from `cursor.execute()` and show in tuple list.
-- `fetchone()` – gets **one row** from the result.
-- `fetchall()` – gets **all rows** as a list of tuples.
-- `fetchmany(n)` – gets **`n` rows** as a list of tuples.
+- Fetch data from `curr.execute()` and show in tuple list.
+- Use `print()` command to show the result.
+- `fetchone()` – gets top one row from the result.
+```Python
+print(VarB.fetchone()) 
+```
 
+- `fetchall()` – gets all rows as a list of tuples.
+```Python
+print(VarB.fetchall())
+```
 
-
+- `fetchmany(n)` – gets `n` rows as a list of tuples.
+```Python
+print(VarB.fetchmany(1))
+```
 
 - Save changes in database after editing.
 ```Python
