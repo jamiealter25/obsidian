@@ -7,11 +7,15 @@ import sqlite3
 - Assign a variable to use this code later.
 - If the database with the given name don't exists then it'll create one.
 ```Python
+# use 'conn' instead of 'VarA' in real life scenario
+
 VarA = sqlite3.connect('YourFileName.db')
 ```
 
 - Create a cursor variable to run SQL commands.
 ```Python
+# use 'curr' instead of 'VarB' in real life scenario
+
 VarB = VarA.cursor()
 ```
 
@@ -32,16 +36,13 @@ VarB.executescript("""
 
 - Save changes in database after editing.
 ```Python
-VarB.commit()
+VarA.commit()
 ```
 
-Close the connection**
-    
-
-`db_connection.close()`
-
-
-
+- Close the connection
+```Python
+VarA.close()
+```
 
 - Basic necessary methods in sqlite3
 ```Text
