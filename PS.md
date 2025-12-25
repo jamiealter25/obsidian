@@ -9,6 +9,15 @@ import sqlite3
 VariableName = sqlite3.connect('YourFileName.db')
 ```
 
+- Create a cursor variable to 
+
+
+
+
+
+
+
+
 - Basic necessary methods in sqlite3
 ```Text
 .connect() → to connect to a database 
