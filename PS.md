@@ -44,6 +44,11 @@ VarA.commit()
 VarA.close()
 ```
 
+- Write the whole code inside `With....` to `.commit()` and `.close()` automatically.
+```Python
+
+```
+
 - Basic necessary methods in sqlite3
 ```Text
 .connect()       → Connect to a database 
