@@ -1,16 +1,26 @@
-/* Applies grey color to all main text, excluding code blocks */
+/* Sets base text and code block text to grey */
 body {
-  color: #808080; /* A standard grey color */
+    --code-normal: #888888 !important;
+    --code-comment: #888888 !important;
+    --code-function: #888888 !important;
+    --code-keyword: #888888 !important;
+    --code-operator: #888888 !important;
+    --code-property: #888888 !important;
+    --code-punctuation: #888888 !important;
+    --code-string: #888888 !important;
+    --code-tag: #888888 !important;
+    --code-value: #888888 !important;
 }
 
-/* Override for inline code to keep its original color */
-.cm-inline-code, .markdown-preview-view code {
-  color: var(--text-code) !important; /* Uses the theme's default code color */
+/* Force grey in Reading View (PrismJS) */
+.markdown-rendered code[class*="language-"],
+.markdown-rendered pre[class*="language-"] span {
+    color: #888888 !important;
 }
 
-/* Override for fenced code blocks to keep their original colors/syntax highlighting */
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock,
-.markdown-preview-view pre.language-*,
-.markdown-source-view.mod-cm6 .cm-panels-code {
-  color: initial !important; /* Reverts to the default color/syntax highlighting */
+/* Force grey in Editing View (Live Preview) */
+.cm-s-obsidian .cm-hmd-codeblock,
+.cm-s-obsidian .cm-inline-code,
+.markdown-source-view.mod-cm6 .cm-content span[class^="cm-"] {
+    color: #888888 !important;
 }
