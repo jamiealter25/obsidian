@@ -76,3 +76,16 @@ with sqlite3.connect('YourFileName.db') as VarA:
 .commit()        → Save changes
 .close()         → Close the database connection
 ```
+
+- Use `pandas` to show the data it table.
+```Python
+import pandas as pd
+
+VarA = sqlite3.connect('Home.db')
+
+allRead = pd.read_sql(""" 
+	# your sql query code here
+""", VarA)
+
+print(allRead)
+```
