@@ -78,6 +78,7 @@ with sqlite3.connect('YourFileName.db') as VarA:
 ```
 
 - Use `pandas` to show the data it table.
+- `pd.read_sql( ,conn)` to read data with SQL query.
 ```Python
 import pandas as pd
 
