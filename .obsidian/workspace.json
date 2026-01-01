@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Extra/Advance Obsidian.md",
+                "file": "Shotcut/Shotcut.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advance Obsidian"
+              "title": "Shotcut"
             }
           }
         ],
@@ -189,14 +189,19 @@
   },
   "active": "16695ed7a18798ed",
   "lastOpenFiles": [
-    "Shotcut.md",
+    "Shotcut/ShowTitleBars.png",
+    "Shotcut/Screenshot (74).png.~tmp",
+    "Shotcut/Screenshot (75).png",
+    "Shotcut/Screenshot (74).png",
+    "Shotcut/Shotcut.md",
+    "Shotcut",
+    "Extra/Advance Obsidian.md",
     "PS.md",
     "db-fiddle (nayeem).zip",
     "Extra/Images.md",
     "Python/Basic Python Projects.md",
     "Python/SQL Basics.md",
     "Python/Python for Beginners.md",
-    "Extra/Advance Obsidian.md",
     "Python/Others.md",
     "Extra/Data Science & Machine Learning with Python.md",
     "Extra/Untitled.md",
@@ -215,8 +220,6 @@
     "Python for AI-ML/Loops.md",
     "Python for AI-ML/Variables and data types.md",
     "Python for AI-ML/Tips & Tricks.md",
-    "Python/Extra.md",
-    "Untitled",
     "Untitled.base",
     "Untitled 1.base",
     "Questions",
@@ -226,7 +229,6 @@
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
     "Python",
-    "Untitled.canvas",
-    "Git & Github"
+    "Untitled.canvas"
   ]
 }
