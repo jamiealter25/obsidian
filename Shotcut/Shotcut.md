@@ -1,3 +1,5 @@
+# Layout Setup
+
 1. Install `Shotcut` from this link → https://www.shotcut.org/download/
 2. Clean up Layout
    - Remove from `View` → `Recent, History, Keyframes` tabs cause you won't use them.
@@ -8,8 +10,7 @@
    - Arrange all necessary Tabs→
 	   - `Playlist, Filters, Properties` - Top left
 	   - `Source, Project` - Top right
-	   - `Export, Jobs, Timeline` - Bottom
-![[MyLayout.png]]
+	   - `Export, Jobs, Timeline` - Bottom![[MyLayout.png]]
    - Now Disable → `Show Title Bars` to keep things locked in place. ![[AddLayout.png]]
 - Add custom layout → `View > Layout > Add`.
 1. 
