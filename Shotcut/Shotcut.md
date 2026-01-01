@@ -4,11 +4,12 @@
    - Also remove → `Show Toolbar, Show Text Under Icons`
    - DO NOT REMOVE → `Show Title Bars` it's not possible to drag tabs without it.  ![[ShowTitleBars.png]]
 3.  Make your own layout
-   - Enable  → `Export, Jobs` tab.
-   - Necessary Tabs→
-	   - `Playlist, Filters, Properties (Top left)`
-   - Export, Jobs`
-   - Drag on drop tabs by holding `Title Bars` and arrange as below. ![[MyLayout.png]]
+   - Enable  → `Export, Jobs` & drag on drop tabs by holding `Title Bars`.
+   - Arrange all necessary Tabs→
+	   - `Playlist, Filters, Properties` - Top left
+	   - `Source, Project` - Top right
+	   - `Export, Jobs, Timeline` - Bottom
+![[MyLayout.png]]
    - Now Disable → `Show Title Bars` to keep things locked in place. ![[AddLayout.png]]
-- Add your layout to
+- Add custom layout → `View > Layout > Add`.
 1. 
