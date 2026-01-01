@@ -184,3 +184,6 @@ Customize how Obsidian looks using `.css` snippets. Enable the _"Custom CSS"_ pl
 h1 {   color: #ff7b00;   font-weight: 800; }
 
 # Enable this from **Settings → Appearance → CSS snippets**.
+
+
+[[picture.png]]` will make a link and `![[picture.png]]` will embed the picture.
