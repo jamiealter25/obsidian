@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Shotcut/Shotcut.md",
+                "file": "Extra/Images.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shotcut"
+              "title": "Images"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -190,6 +189,7 @@
   },
   "active": "16695ed7a18798ed",
   "lastOpenFiles": [
+    "Shotcut/Shotcut.md",
     "Shotcut/AddLayout.png",
     "Shotcut/add layout.png",
     "Shotcut/Screenshot (77).png",
@@ -200,7 +200,6 @@
     "Shotcut/Screenshot (74).png.~tmp",
     "Shotcut/Screenshot (75).png",
     "Shotcut/Screenshot (74).png",
-    "Shotcut/Shotcut.md",
     "Shotcut",
     "Extra/Advance Obsidian.md",
     "PS.md",
