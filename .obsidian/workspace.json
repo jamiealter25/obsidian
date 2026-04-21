@@ -11,10 +11,14 @@
             "id": "9e7fe2be2542adc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Extra/Useful Apps.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Useful Apps"
             }
           }
         ]
@@ -168,7 +172,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56689eaa49a427a1",
+  "active": "9e7fe2be2542adc4",
   "lastOpenFiles": [
     "Extra/Vocabularies.md",
     "Extra/Dress up.md",
