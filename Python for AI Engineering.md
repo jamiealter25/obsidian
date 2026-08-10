@@ -30,15 +30,16 @@ fruits[-1] # Output: 'cherry' (last element)
 #### List Slicing
 - list slicing is grabbing items in a range
 - Syntax is **[start : stop]** or **[start : stop : step]**
+- **[1 : 4]** means it'll take the value from place 1
 - step is used to jump specific steps
 - **Blank `start`**: Starts at the beginning; **Blank `stop`**: Goes till the end; **Blank both**: full list.
 
 ```Python
 numbers = [1, 2, 3, 4, 5]
 
-numbers[1:4] # Output: [2, 3, 4]  
-numbers[:3] # Output: [1, 2, 3]  
-numbers[::-1] # Output: [5, 4, 3, 2, 1] (reverse list)  
+numbers[1:4] # Output: [2, 3, 4]
+numbers[:3] # Output: [1, 2, 3]
+numbers[::-1] # Output: [5, 4, 3, 2, 1]
 ```
 
 | **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
