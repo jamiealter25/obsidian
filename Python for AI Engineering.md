@@ -31,7 +31,15 @@ fruits[-1] # Output: 'cherry' (last element)
 - list slicing is grabbing items in a range
 - Syntax is **[start : stop]** or **[start : stop : step]**
 - step is used to jump specific steps
+- **Blank `start`**: Starts at the beginning; **Blank `stop`**: Goes till the end; **Blank both**: full list.
 
+```Python
+numbers = [1, 2, 3, 4, 5]
+
+numbers[1:4] # Output: [2, 3, 4]  
+numbers[:3] # Output: [1, 2, 3]  
+numbers[::-1] # Output: [5, 4, 3, 2, 1] (reverse list)  
+```
 
 | **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
 | --------------------- | ----------------- | --------------------- | --------------------- | -------------- |
@@ -44,6 +52,8 @@ fruits[-1] # Output: 'cherry' (last element)
 - A **compact way** to create lists using a single line of code.
 - Combines **loop** and **expression** inside `[]`.
 - Often used for **cleaner, faster** list creation.
+
+- 
 ```python
 squares = [x * x for x in range(5)]
 print(squares)  # Output: [0, 1, 4, 9, 16]
@@ -56,9 +66,7 @@ numbers = [1, 2, 3, 4, 5]
 #  :  
 
  
-numbers[1:4] # Output: [2, 3, 4]  
-numbers[:3] # Output: [1, 2, 3]  
-numbers[::-1] # Output: [5, 4, 3, 2, 1] (reverse list)  
+
   
 # List Comprehensions:  
 squares = [x**2 for x in range(6)] # [0, 1, 4, 9, 16, 25]  
