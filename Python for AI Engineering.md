@@ -30,7 +30,7 @@ fruits[-1] # Output: 'cherry' (last element)
 #### List Slicing
 - list slicing is grabbing items in a range
 - Syntax is **[start : stop]** or **[start : stop : step]**
-- **[1 : 4]** means it'll take the value from place 1
+- **[1 : 4]** means it'll take the value from place 1 - 3, **stop** value is always the limit.
 - step is used to jump specific steps
 - **Blank `start`**: Starts at the beginning; **Blank `stop`**: Goes till the end; **Blank both**: full list.
 
@@ -41,43 +41,27 @@ numbers[1:4] # Output: [2, 3, 4]
 numbers[:3] # Output: [1, 2, 3]
 numbers[::-1] # Output: [5, 4, 3, 2, 1]
 ```
-
-| **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
-| --------------------- | ----------------- | --------------------- | --------------------- | -------------- |
-| Change **one** item   | `list[index]`     | `nums = [1, 2, 3]`    | `nums[1] = 9`         | `[1, 9, 3]`    |
-| Change **some** items | `list[start:end]` | `nums = [1, 2, 3, 4]` | `nums[1:3] = [8, 9]`  | `[1, 8, 9, 4]` |
-| Replace **all** items | `list[:]`         | `nums = [1, 2, 3]`    | `nums[:] = [4, 5, 6]` | `[4, 5, 6]`    |
-
-# List Comprehensions
-
-- A **compact way** to create lists using a single line of code.
-- Combines **loop** and **expression** inside `[]`.
-- Often used for **cleaner, faster** list creation.
-
-- 
+#### List Comprehensions
+- fast way create lists using `for` , `if...else` inside a single line.
 ```python
-squares = [x * x for x in range(5)]
-print(squares)  # Output: [0, 1, 4, 9, 16]
+numbers = [1, 2, 3, 4, 5]
+
+# 1. Basic Comprehensions
+squares = [x**2 for x in numbers] # Output: [1, 4, 9, 16, 25]
+
+# 2. With IF
+evens = [x for x in numbers if x % 2 == 0] # Output: [2, 4]
+
+# 3. With IF-ELSE
+labels = ["even" if x % 2 == 0 else "odd" for x in numbers] # Output: ['odd', 'even', 'odd', 'even', 'odd']
 ```
+
+
 ---
-# create:  
-numbers = [1, 2, 3, 4, 5]  
 
-  
-#  :  
-
- 
-
-  
-# List Comprehensions:  
-squares = [x**2 for x in range(6)] # [0, 1, 4, 9, 16, 25]  
-evens = [x for x in numbers if x % 2 == 0] # [2, 4]  
-  
 # Built-in Methods:  
-numbers.append(6) #Adds one item to the end  
-numbers.pop() # Removes last element  
-numbers.pop(0) # Removes first element  
+numbers.append(6) # Adds one item to the end  
 numbers.insert(2, 99) # Inserts 99 at index 2  
-numbers.remove(3) # emoves the first occurrence of 3  
+numbers.remove(3) # removes the first occurrence of 3  
 numbers.sort() # Sorts in-place (ascending by default)  
 numbers.reverse() # Reverses the list in-place
