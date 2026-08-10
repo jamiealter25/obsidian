@@ -45,6 +45,12 @@ numbers[::-1] # Output: [5, 4, 3, 2, 1]
 - fast way create lists using `for` , `if...else` inside a single line.
 - comprehension = [ do this  + for what +  condition ] except `if...else`
 ```python
+'''
+list      = [x        for x in numbers       if x % 2 == 0]
+formula   = [do this      for what               condition]
+'''
+
+
 numbers = [1, 2, 3, 4, 5]
 
 # Basic Comprehensions
@@ -61,12 +67,12 @@ labels = ["even" if x % 2 == 0 else "odd" for x in numbers]
 ```Python
 numbers = [1, 2, 3, 4, 5]
 
-numbers.append(6)     # Adds one item to the end  
+numbers.append(6)     # Adds given item to the end  
 numbers.insert(2, 99) # Inserts 99 at index 2  
-numbers.remove(3)     # removes the first occurrence of 3  
-numbers.sort()        # Sorts in-place (ascending by default)  
-numbers.reverse()     # Reverses the list in-place
+numbers.remove(3)     # finds 3 in list and removes it
 numbers.pop()         # Removes last element  
 numbers.pop(0)        # Removes first element
+numbers.sort()        # Sorts list (ascending by default)  
+numbers.reverse()     # Reverses list
 ```
 ---
