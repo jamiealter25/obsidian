@@ -176,21 +176,7 @@ for num in range(1, 6):
 ```
 ---
 # Data Structures
-#### List (Sequence Types)
-- List can store many items of same data types in one place using **square brackets `[ ]`**
-- Lists are **mutable**, meaning you can **change** the items after creation
-```python
-fruits = ["apple", "banana", "cherry"]
-my_list = [1, 2, 3]
-```
 
-- You can **modify** one item, **multiple items**, or even **replace the entire list**.
-
-| **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
-| --------------------- | ----------------- | --------------------- | --------------------- | -------------- |
-| Change **one** item   | `list[index]`     | `nums = [1, 2, 3]`    | `nums[1] = 9`         | `[1, 9, 3]`    |
-| Change **some** items | `list[start:end]` | `nums = [1, 2, 3, 4]` | `nums[1:3] = [8, 9]`  | `[1, 8, 9, 4]` |
-| Replace **all** items | `list[:]`         | `nums = [1, 2, 3]`    | `nums[:] = [4, 5, 6]` | `[4, 5, 6]`    |
 #### Tuple (Sequence Types)
 - Tuple can store many items of any data types in one place using **parenthesis `()`
 - Tuples are **immutable**, meaning you cannot **change** the items after creation
@@ -339,15 +325,5 @@ with open("data.txt", "a") as file:
 # Create new file (error if it already exists)
 with open("newfile.txt", "x") as file:
     file.write("This file was just created.")
-```
----
-# List Comprehensions
-
-- A **compact way** to create lists using a single line of code.
-- Combines **loop** and **expression** inside `[]`.
-- Often used for **cleaner, faster** list creation.
-```python
-squares = [x * x for x in range(5)]
-print(squares)  # Output: [0, 1, 4, 9, 16]
 ```
 ---
