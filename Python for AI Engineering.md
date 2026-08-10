@@ -12,12 +12,20 @@ numbers = [1, 2, 3]
 mixed = [42, "AI", 3.14, [1, 2], {"model": "GPT"}]  
 ```
 #### List Indexing
+- Grabbing an item from a list by its position number.
+- First item's position number is **0**
 ```Python
+fruits = ["apple", "banana", "cherry"]
+
+# Position(positive):   0        1          2
+# Access:            fruits[0] fruits[1] fruits[2]
+# Position(negative):   -3        -2        -1
+
 # Positive indexing
-numbers[0] # Output: 1
+fruits[0] # Output: 'apple'
 
 # Negative indexing
-numbers[-1] # Output: 3 (last element) 
+numbers[-1] # Output: 'cherry' (last element) 
 ```
 #### List Slicing
 
