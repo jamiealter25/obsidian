@@ -22,3 +22,6 @@
 
 Image upscale
 https://imgupscaler.com/
+
+Image to bangla text
+https://www.imagetotext.io/
