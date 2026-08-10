@@ -43,25 +43,30 @@ numbers[::-1] # Output: [5, 4, 3, 2, 1]
 ```
 #### List Comprehensions
 - fast way create lists using `for` , `if...else` inside a single line.
+- comprehension = [ do this  + for what +  condition ] except `if...else`
 ```python
 numbers = [1, 2, 3, 4, 5]
 
-# 1. Basic Comprehensions
+# Basic Comprehensions
 squares = [x**2 for x in numbers] # Output: [1, 4, 9, 16, 25]
 
-# 2. With IF
+# IF
 evens = [x for x in numbers if x % 2 == 0] # Output: [2, 4]
 
-# 3. With IF-ELSE
-labels = ["even" if x % 2 == 0 else "odd" for x in numbers] # Output: ['odd', 'even', 'odd', 'even', 'odd']
+# IF-ELSE [do this + IF/ELSE + for what]
+labels = ["even" if x % 2 == 0 else "odd" for x in numbers]
+# Output: ['odd', 'even', 'odd', 'even', 'odd']
 ```
+#### Built-in Methods:  
+```Python
+numbers = [1, 2, 3, 4, 5]
 
-
----
-
-# Built-in Methods:  
-numbers.append(6) # Adds one item to the end  
+numbers.append(6)     # Adds one item to the end  
 numbers.insert(2, 99) # Inserts 99 at index 2  
-numbers.remove(3) # removes the first occurrence of 3  
-numbers.sort() # Sorts in-place (ascending by default)  
-numbers.reverse() # Reverses the list in-place
+numbers.remove(3)     # removes the first occurrence of 3  
+numbers.sort()        # Sorts in-place (ascending by default)  
+numbers.reverse()     # Reverses the list in-place
+numbers.pop()         # Removes last element  
+numbers.pop(0)        # Removes first element
+```
+---
