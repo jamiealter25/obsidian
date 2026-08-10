@@ -45,10 +45,8 @@ numbers[::-1] # Output: [5, 4, 3, 2, 1]
 - fast way create lists using `for` , `if...else` inside a single line.
 - comprehension = [ do this  + for what +  condition ] except `if...else`
 ```python
-'''
-list      = [x        for x in numbers       if x % 2 == 0]
-formula   = [do this      for what               condition]
-'''
+# list      = [x        for x in numbers       if x % 2 == 0]
+# formula   = [do this      for what               condition]
 
 
 numbers = [1, 2, 3, 4, 5]
