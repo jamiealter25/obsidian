@@ -2,15 +2,26 @@
 
 # List
 
-- Store many items in one place,
-- Uses **square brackets `[ ]`**
-- List's data can be change later (**mutable**).
+- Store many items in one place.
+- Uses **square brackets `[ ]`**.
+- Mutable (can **modify** one item, **multiple items**, or even **replace the entire list**).
 ```python
+# Different types of lists
 fruits = ["apple", "banana", "cherry"]
-my_list = [1, 2, 3]
+numbers = [1, 2, 3]
+mixed = [42, "AI", 3.14, [1, 2], {"model": "GPT"}]  
 ```
+#### List Indexing
+```Python
+# Positive indexing
+numbers[0] # Output: 1
 
-- You can **modify** one item, **multiple items**, or even **replace the entire list**.
+# Negative indexing
+numbers[-1] # Output: 3 (last element) 
+```
+#### List Slicing
+
+
 
 | **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
 | --------------------- | ----------------- | --------------------- | --------------------- | -------------- |
@@ -30,11 +41,11 @@ print(squares)  # Output: [0, 1, 4, 9, 16]
 ---
 # create:  
 numbers = [1, 2, 3, 4, 5]  
-mixed = [42, "AI", 3.14, [1, 2], {"model": "GPT"}]  
+
   
-# List Indexing & Slicing:  
-numbers[0] # Output: 1  
-numbers[-1] # Output: 5 (last element)  
+#  :  
+
+ 
 numbers[1:4] # Output: [2, 3, 4]  
 numbers[:3] # Output: [1, 2, 3]  
 numbers[::-1] # Output: [5, 4, 3, 2, 1] (reverse list)  
