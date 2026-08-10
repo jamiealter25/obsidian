@@ -25,10 +25,12 @@ fruits = ["apple", "banana", "cherry"]
 fruits[0] # Output: 'apple'
 
 # Negative indexing
-numbers[-1] # Output: 'cherry' (last element) 
+fruits[-1] # Output: 'cherry' (last element) 
 ```
 #### List Slicing
-
+- list slicing is grabbing items in a range
+- Syntax is **[start : stop]** or **[start : stop : step]**
+- step is used to jump specific steps
 
 
 | **Action**            | **Syntax**        | **Example**           |                       | **Result**     |
