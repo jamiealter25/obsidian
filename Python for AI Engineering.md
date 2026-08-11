@@ -105,23 +105,28 @@ person.pop("city")         # Removes "city" and copy value (Not exist = Key erro
 person.pop("city", None)   # Removes "city" and copy its value (no error)
 del person["city"]         # Removes "city" and no copy (Not exist = Key error)
 ```
-#### Iterating
-
+#### Iteration of dictionary
 ```Python
+person = {"name": "Afrid", "age": 20, "city": "Dhaka"}
+
 # .items() for both key and value
-for key, value in config.items():
-	print(f"{key} = {value}")
+for key, value in person.items():
+    print(f"{key} = {value}")
+	
+# .keys() for only key
+for key in person.keys():
+    print(key)
 
-# .values() for both key and value
-for key, value in config.values():
-	print(f"{key} = {value}")
-
+# .values() for only value
+for value in person.values():
+    print(value)
 ```
 
-| **Method**           | **Syntax**                          | **Best Used For**            |
-| -------------------- | ----------------------------------- | ---------------------------- |
-| **`dict.items()`**   | `for key, value in config.items():` | need **both** key and value. |
-| **Direct iteration** | `for key in config:`                | need **keys**                |
-| **`dict.values()`**  | `for value in config.values():      | only need the values         |
+#### Dictionary Comprehension
+```Python
+squared = {x: x**2 for x in range(5)}
+
+variable_name =  {"lable/keys" :  value,
+```
 
 ---
