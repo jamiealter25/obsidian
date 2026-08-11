@@ -73,3 +73,7 @@ numbers.sort()        # Sorts list (ascending by default)
 numbers.reverse()     # Reverses list
 ```
 ---
+
+# Dictionary
+
+- 
