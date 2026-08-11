@@ -65,7 +65,7 @@ labels = ["even" if x % 2 == 0 else "odd" for x in numbers]
 numbers = [1, 2, 3, 4, 5]
 
 numbers.append(6)     # Adds given item to the end  
-numbers.insert(2, 99) # Inserts 99 at index 2  
+numbers.insert(2, 99) # Inserts 99 at index 2 and shift others to right 
 numbers.remove(3)     # finds 3 in list and removes it
 numbers.pop()         # Removes last element  
 numbers.pop(0)        # Removes first element
