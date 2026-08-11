@@ -121,12 +121,14 @@ for key in person.keys():
 for value in person.values():
     print(value)
 ```
-
 #### Dictionary Comprehension
 ```Python
 squared = {x: x**2 for x in range(5)}
 
-variable_name =  {"lable/keys" :  value,
-```
+# structure
+squared = {     x      :  x**2    for x in range(5)}
 
+#         { lable/keys :         value             }
+#                        do this      for what
+```
 ---
