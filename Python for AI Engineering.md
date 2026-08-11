@@ -103,7 +103,25 @@ person["country"] = "BD"   # Adds "country"/ updates existing "country"
 ```Python
 person.pop("city")         # Removes "city" and copy value (Not exist = Key error)
 person.pop("city", None)   # Removes "city" and copy its value (no error)
-del config["city"]         # Removes "city" and no copy (Not exist = Key error)
+del person["city"]         # Removes "city" and no copy (Not exist = Key error)
 ```
+#### Iterating
+
+```Python
+# .items() for both key and value
+for key, value in config.items():
+	print(f"{key} = {value}")
+
+# .values() for both key and value
+for key, value in config.values():
+	print(f"{key} = {value}")
+
+```
+
+| **Method**           | **Syntax**                          | **Best Used For**            |
+| -------------------- | ----------------------------------- | ---------------------------- |
+| **`dict.items()`**   | `for key, value in config.items():` | need **both** key and value. |
+| **Direct iteration** | `for key in config:`                | need **keys**                |
+| **`dict.values()`**  | `for value in config.values():      | only need the values         |
 
 ---
