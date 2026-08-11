@@ -193,24 +193,7 @@ fruits.add("orange")     # Add an item
 fruits.remove("banana")  # Remove an item
 ```
 ---
-#### Dictionary
 
-- `dict` stores **key-value pairs** in a single variable.
-- Keys must be **unique** and **immutable**; values can be **any type**.
-```python
-person = {"name": "Afrid", "age": 20, "city": "Dhaka"}
-print(person["name"])         # Access value by key → Afrid
-person["age"] = 21             # Update value
-person["country"] = "BD"   # Add new key-value pair
-```
----
-#### Range (Sequence Types)
-- `range()` --> gives you a list of numbers **in order** (mostly used with `for` loops)
-```python
-for i in range(2, 6):
-	print(i)
-```
----
 # Function Definition (`def`)
 - `def function_name(parameters):` is a function declaration
 - **parameter** → placeholder; **argument** → actual value passed while calling

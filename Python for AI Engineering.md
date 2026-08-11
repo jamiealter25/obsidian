@@ -76,4 +76,22 @@ numbers.reverse()     # Reverses list
 
 # Dictionary
 
-- 
+- Stores different attributes and their values of a single variable.
+- Keys must be **unique** and **immutable**; values can be **any type**.
+```python
+person = {"name": "Afrid",
+		   "age": 20,
+		  "city": "Dhaka"}
+		  
+print(person["name"])         # Access value by key → Afrid
+person["age"] = 21             # Update value
+person["country"] = "BD"   # Add new key-value pair
+```
+---
+#### Range (Sequence Types)
+- `range()` --> gives you a list of numbers **in order** (mostly used with `for` loops)
+```python
+for i in range(2, 6):
+	print(i)
+```
+---
