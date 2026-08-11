@@ -184,6 +184,14 @@ for num in range(1, 6):
  my_tuple = ("hello", 123, 3.14, True, [1, 2, 3])
  ```
 
+#### Range (Sequence Types)
+- `range()` --> gives you a list of numbers **in order** (mostly used with `for` loops)
+```python
+for i in range(2, 6):
+	print(i)
+```
+---
+
 #### Set
 - `set()` or `{}` is used to create a set.
 - Sets store **unique items** and are **unordered**. **Duplicates are not allowed**.

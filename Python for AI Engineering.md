@@ -76,7 +76,7 @@ numbers.reverse()     # Reverses list
 
 # Dictionary
 
-- A container used to describe a single item/variable through its features.
+- A container used to describe a single item/variable through its features (key-value pair).
 - Use **curly brackets {}**
 - Syntax structure --> variable_name = {"lable/keys" :  value, "label/keys" : value}
 - Label/keys must be **unique** and **immutable**.
@@ -84,16 +84,12 @@ numbers.reverse()     # Reverses list
 person = {"name": "Afrid",
 		   "age": 20,
 		  "city": "Dhaka"}
-		  
-print(person["name"])         # Access value by key → Afrid
-person["age"] = 21             # Update value
-person["country"] = "BD"   # Add new key-value pair
-```
----
-#### Range (Sequence Types)
-- `range()` --> gives you a list of numbers **in order** (mostly used with `for` loops)
-```python
-for i in range(2, 6):
-	print(i)
+
+# Accessing Values		  
+person["name"]             # Access value by label/key → Afrid
+
+
+person["age"] = 21         # Update value
+person["country"] = "BD"   # Adds "country"/ updates existing "country"
 ```
 ---
