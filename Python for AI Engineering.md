@@ -88,8 +88,15 @@ person = {"name": "Afrid",
 # Accessing Values		  
 person["name"]             # Access value by label/key → Afrid
 
+# Checking if label/key exists
+person.get("height", 0.9)  # Returns 0.9 if "height" is missing
 
+# Modifying or Adding Entries
 person["age"] = 21         # Update value
 person["country"] = "BD"   # Adds "country"/ updates existing "country"
+
+# Removing label/keys
+person.pop("city")         # Removes "city", won't give error if it doesn't exist
+del config["city"]         # Removes "city" but will throw and error if it doesn't exist
 ```
 ---
