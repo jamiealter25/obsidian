@@ -28,7 +28,7 @@ fruits[-1] # Output: 'cherry' (last element)
 ```
 #### List Slicing
 - list slicing is grabbing items in a range
-- Syntax is **[start : stop]** or **[start : stop : step]**
+- Syntax structure --> **[start : stop]** or **[start : stop : step]**
 - **[1 : 4]** means it'll take the value from place 1 - 3, **stop** value is always the limit.
 - step is used to jump specific steps
 - **Blank `start`**: Starts at the beginning; **Blank `stop`**: Goes till the end; **Blank both**: full list.
@@ -76,8 +76,10 @@ numbers.reverse()     # Reverses list
 
 # Dictionary
 
-- Stores different attributes and their values of a single variable.
-- Keys must be **unique** and **immutable**; values can be **any type**.
+- A container used to describe a single item/variable through its features.
+- Use **curly brackets {}**
+- Syntax structure --> variable_name = {"lable/keys" :  value, "label/keys" : value}
+- Label/keys must be **unique** and **immutable**.
 ```python
 person = {"name": "Afrid",
 		   "age": 20,
