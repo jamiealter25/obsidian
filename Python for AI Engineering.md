@@ -81,23 +81,29 @@ numbers.reverse()     # Reverses list
 - Syntax structure --> variable_name = {"lable/keys" :  value, "label/keys" : value}
 - Label/keys must be **unique** and **immutable**.
 ```python
+# basic dictionary structure
 person = {"name": "Afrid",
 		   "age": 20,
 		  "city": "Dhaka"}
-
-# Accessing Values		  
+```
+#### Accessing Values		  
+```Python
 person["name"]             # Access value by label/key → Afrid
-
-# Checking if label/key exists
+```
+#### Checking if label/key exists
+```Python
 person.get("height", 0.9)  # Returns 0.9 if "height" is missing
-
-# Modifying or Adding Entries
+```
+#### Modifying or Adding Entries
+```Python
 person["age"] = 21         # Update value
 person["country"] = "BD"   # Adds "country"/ updates existing "country"
-
-# Removing label/keys
-person.pop("city")         # Removes "city" and copy its value
-person.pop("city", None)   # Removes "city" and copy its value (no error)
-del config["city"]         # Removes "city", error if doesn't exist
 ```
+#### Removing label/keys
+```Python
+person.pop("city")         # Removes "city" and copy value (Not exist = Key error)
+person.pop("city", None)   # Removes "city" and copy its value (no error)
+del config["city"]         # Removes "city" and no copy (Not exist = Key error)
+```
+
 ---
