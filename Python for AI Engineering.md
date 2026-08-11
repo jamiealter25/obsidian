@@ -96,7 +96,8 @@ person["age"] = 21         # Update value
 person["country"] = "BD"   # Adds "country"/ updates existing "country"
 
 # Removing label/keys
-person.pop("city")         # Removes "city", won't give error if it doesn't exist
-del config["city"]         # Removes "city" but will throw and error if it doesn't exist
+person.pop("city")         # Removes "city" and copy its value
+person.pop("city", None)   # Removes "city" and copy its value (no error)
+del config["city"]         # Removes "city", error if doesn't exist
 ```
 ---

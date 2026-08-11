@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Python for AI Engineering"
             }
-          },
-          {
-            "id": "41545c92dce40163",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.6"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +175,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "41545c92dce40163",
+  "active": "552c776bd13d2ad8",
   "lastOpenFiles": [
     "Python/Python for Beginners.md",
     "Python for AI Engineering.md",
