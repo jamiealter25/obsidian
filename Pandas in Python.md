@@ -76,6 +76,17 @@ df.info()      # show number of rows, columns, data type and more
 df.describe()  # show quick (mean, min, max)
 df.shape()     # show number of rows and columns
 ```
-
+#### Print DataFrame
+```python
+print(df1)                # will show first few rows & last few rows
+print(df1.to_string())    # will show every rows and tables
+```
 #### Handle missing data
 - use `.isnull()` to find how many missing data in a column/ table
+- use `.sum()` to sum the whole column
+```python
+df.isnull().sum()                    # finds null value from whole table
+df["column_name"].isnull().sum()     # finds num from a column
+df.isnull().sum().sum()              # Total nulls in entire DataFrame
+```
+
