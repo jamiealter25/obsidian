@@ -44,9 +44,9 @@ print(students_dataframe)
 ```python
 # Custom indexing
 
-numbers = [1, 2, 3, 4, 5]
-numbers_series = pd.Series(numbers, index = ["a", "b", "c", "d", "e"])
-print(numbers_series)
+df = [1, 2, 3, 4, 5]
+new_df = pd.Series(numbers, index = ["a", "b", "c", "d", "e"])
+print(new_df)
 ```
 
 #### Load CSV files
@@ -55,3 +55,11 @@ print(numbers_series)
 variable_name = pd.read_csv("csv path here")
 ```
 
+#### Show Data
+```python
+df.head()      # show first 5 rows default (mention how many rows inside brackets)
+df.tail()      # show last 5 rows (mention how many rows inside brackets)
+df.sample()    # show random rows (mention how many rows inside brackets)
+df.info()      # show number of rows, columns and their data type
+df.describe()  # show quick statistics (mean, min, ma)
+```
