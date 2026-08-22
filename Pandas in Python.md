@@ -31,8 +31,21 @@ print(numbers_series)
 
 # Dictionary converted to Dataframe
 
-student = {
-		Name : ["Alice", "Bob", "Charlie"],
-		Age : [25, 30, 35]
+students = {
+		"Name" : ["Alice", "Bob", "Charlie"],
+		"Age" : [25, 30, 35]
 }
+students_dataframe = pd.DataFrame(students)
+print(students_dataframe)
+```
+
+#### Custom index
+- use `index = [a, b, c]`  inside `Series` and `DataFrame` method for custom index.
+```python
+# Custom indexing
+
+numbers = [1, 2, 3, 4, 5]
+numbers_series = pd.Series(numbers, index = [])
+print(numbers_series)
+
 ```
