@@ -5,7 +5,6 @@ import pandas as pd
 
 # here 'pd' can be set for a shortcut use and you can give anything you want
 ```
-
 #### Series vs DataFrame
 - `1 column`  data is a series. `Multi Column` data is DataFrame
 - `list` can be converted as `series`. (because it has a single column of data)
@@ -90,3 +89,13 @@ df["column_name"].isnull().sum()     # finds num from a column
 df.isnull().sum().sum()              # Total nulls in entire DataFrame
 ```
 
+- fill empty cells using `.fillna()` give any value inside brackets
+```python
+df_new = df["column_name"].fillna(0)      # fills the cells with 0 zero
+```
+
+- drop any row with an empty cell
+```python
+df_new = df["column_name"].dropna()           # drop any row with null
+df_new = df.dropna(subset=["column_name"])    # drop row with a specific col null
+```
