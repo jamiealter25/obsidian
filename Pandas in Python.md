@@ -44,7 +44,7 @@ print(students_dataframe)
 ```python
 # Custom indexing
 
-df = [1, 2, 3, 4, 5]
+df = [1, 2, 3, 4, 5]         # df means dataframe (commonly used)
 new_df = pd.Series(numbers, index = ["a", "b", "c", "d", "e"])
 print(new_df)
 ```
@@ -55,11 +55,24 @@ print(new_df)
 variable_name = pd.read_csv("csv path here")
 ```
 
+#### Select rows & columns
+```python
+students = {
+		"Name" : ["Alice", "Bob", "Charlie"],
+		"Age" : [25, 30, 35]
+}
+
+
+```
 #### Show Data
 ```python
 df.head()      # show first 5 rows default (mention how many rows inside brackets)
 df.tail()      # show last 5 rows (mention how many rows inside brackets)
 df.sample()    # show random rows (mention how many rows inside brackets)
-df.info()      # show number of rows, columns and their data type
-df.describe()  # show quick statistics (mean, min, ma)
+df.info()      # show number of rows, columns, data type and more
+df.describe()  # show quick (mean, min, max)
+df.shape()     # show number of rows and columns
 ```
+
+#### Handle missing data
+- use `.isnull()` to find how many missing data in a column/ table
