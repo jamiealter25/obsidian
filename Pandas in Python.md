@@ -56,13 +56,16 @@ variable_name = pd.read_csv("csv path here")
 ```
 
 #### Select rows & columns
+- variable_name["column_name"] will select that column.
+- variable_name.iloc[1] will select that row. 
 ```python
-students = {
-		"Name" : ["Alice", "Bob", "Charlie"],
-		"Age" : [25, 30, 35]
-}
+df = {	"Name" : ["Alice", "Bob", "Charlie"],
+		"Age" : [25, 30, 35]  }
 
-
+df1 = pd.DataFrame(df)
+print(df1["Name"])      # prints a column
+print(df1.iloc[2])      # prints a single row
+print(df1.iloc[0:1])    # prints a range of rows
 ```
 #### Show Data
 ```python
