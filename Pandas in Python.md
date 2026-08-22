@@ -45,7 +45,13 @@ print(students_dataframe)
 # Custom indexing
 
 numbers = [1, 2, 3, 4, 5]
-numbers_series = pd.Series(numbers, index = [])
+numbers_series = pd.Series(numbers, index = ["a", "b", "c", "d", "e"])
 print(numbers_series)
-
 ```
+
+#### Load CSV files
+- use `pd.read_csv()` to import csv files
+```python
+variable_name = pd.read_csv("csv path here")
+```
+
