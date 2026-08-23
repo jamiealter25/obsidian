@@ -94,8 +94,10 @@ df.isnull().sum().sum()              # Total nulls in entire DataFrame
 df_new = df["column_name"].fillna(0)      # fills the cells with 0 zero
 ```
 
-- drop any row with an empty cell
+- drop any row/ column with an empty cell
 ```python
-df_new = df["column_name"].dropna()           # drop any row with null
-df_new = df.dropna(subset=["column_name"])    # drop row with a specific col null
+df_new = df["column_name"].dropna()           # drop any row with null value
+df_new = df.dropna(subset=["column_name"])    # drop row with a specific column that has null value
 ```
+
+#### Null Value
