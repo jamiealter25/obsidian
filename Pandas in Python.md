@@ -99,15 +99,15 @@ df_new = df["column_name"].fillna(0)      # fills the cells with 0 zero
 df_new = df["column_name"].dropna()           # drop any row with null value
 df_new = df.dropna(subset=["column_name"])    # drop row with a specific column that has null value
 ```
-
 #### Measures of central tendency
+- `means`--> Summing up all the values in the data-set and dividing by the total number of values
+- `median` -->
 ```python
 .mean()       # gives mean value
 .median()     # gives median value
 .mode()       # gives a Series/list-like result of mode
-.mode()[0]    # gives the first value from mode
+.mode()[0]    # gives the first value from mode Series
 ```
-
 #### Null Value
 - write `None` without any commas to make a null value
 - `none` will give and error, write `None` specifically
