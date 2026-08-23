@@ -102,9 +102,10 @@ df_new = df.dropna(subset=["column_name"])    # drop row with a specific column 
 
 #### Measures of central tendency
 ```python
-.mean()[0]
-.median()
-.mode()
+.mean()       # gives mean value
+.median()     # gives median value
+.mode()       # gives a Series/list-like result of mode
+.mode()[0]    # gives the first value from mode
 ```
 
 #### Null Value
