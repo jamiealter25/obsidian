@@ -121,3 +121,18 @@ df = {	"Name" : ["Alice", "Bob", "Charlie"],
 ```
 
 #### Crosstab
+- Use `pd.crosstab()` when you want to compare two categorical things and count how they occur together.
+```text
+You have:
+    Sex --> male/female
+    Survived --> 0/1
+
+question: How many males and females survived?
+```
+- code
+```python
+pd.crosstab(
+    titanic_dataset["Sex"],
+    titanic_dataset["Survived"]
+)
+```
