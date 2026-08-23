@@ -96,9 +96,11 @@ df_new = df["column_name"].fillna(0)      # fills the cells with 0 zero
 
 - drop any row/ column
 ```python
+df_new = df.drop(index=5)                     # drop any specific row
+df_new = df.drop(index=[5, 10, 15])           # drop more than ONE row
 df_new = df["column_name"].dropna()           # drop any row with null value
 df_new = df.drop(columns='Cabin')             # drop any column
-df_new = df.dropna(subset=["column_name"])    # drop row with a specific column that has null value
+df_new = df.dropna(subset=["column_name"])    # drop rows based on ONE specific column
 ```
 #### Measures of central tendency
 - `means` --> Summing up all the values and dividing by the total number of values

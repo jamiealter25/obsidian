@@ -318,3 +318,9 @@ with open("newfile.txt", "x") as file:
     file.write("This file was just created.")
 ```
 ---
+
+# Number formatting rule
+- to show a specific number of digits after the decimal point
+```python
+print(f"{x:.2f}")      # to show 2 digit after decimal point
+```
