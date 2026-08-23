@@ -100,4 +100,12 @@ df_new = df["column_name"].dropna()           # drop any row with null value
 df_new = df.dropna(subset=["column_name"])    # drop row with a specific column that has null value
 ```
 
+
+
 #### Null Value
+- write `None` without any commas to make a null value
+- `none` will give and error, write `None` specifically
+```python
+df = {	"Name" : ["Alice", "Bob", "Charlie"],
+		"Age" : [25, None, 35]  }
+```
