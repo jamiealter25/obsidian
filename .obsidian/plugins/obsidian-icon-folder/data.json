@@ -37,8 +37,8 @@
   "Git & Github": "SiGithub",
   "Git & Github/VsCode Git Sync.md": "SiVisualstudiocode",
   "Git & Github/Obsidian-VScode Git Sync Guide.md": "SiGit",
-  "Python": "SiPython",
   "Extra/Useful Apps.md": "SiAndroid",
   "Extra/Advance Obsidian.md": "SiObsidian",
-  "SQL": "SiSequelize"
+  "SQL": "SiSequelize",
+  "Python": "SiPython"
 }

@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4624da103fbeeb32",
+            "id": "08bae93902dec033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python for AI Engineering.md",
+                "file": "Python/6. Python - AI Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python for AI Engineering"
+              "title": "6. Python - AI Engineering"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 390.3830261230469
+    "width": 258.92962646484375
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -174,25 +174,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56689eaa49a427a1",
+  "active": "08bae93902dec033",
   "lastOpenFiles": [
-    "Pandas in Python.md",
+    "Python/7. Python - Pandas.md",
+    "Python/8. Python - Matplotlib.md",
+    "Python/4. Python - Setup VS Code.md",
+    "Python/5. Python - Basic Projects.md",
+    "Python/6. Python - AI Engineering.md",
     "Extra/Python & SQL connection.md",
-    "Shotcut/ShowTitleBars.png",
-    "Shotcut/Shotcut.md",
-    "Shotcut/MyLayout.png",
-    "Shotcut/AddLayout.png",
+    "Extra/Shotcut/ShowTitleBars.png",
+    "Extra/Shotcut/Shotcut.md",
+    "Extra/Shotcut/MyLayout.png",
+    "Extra/Shotcut/AddLayout.png",
     "SQL/SQL Basics.md",
     "SQL.md",
     "SQL",
     "Extra/Dress up.md",
     "Extra/Data Science & Machine Learning with Python.md",
-    "Python/5. Python - Basic Projects.md",
-    "Python/4. Python - Setup VS Code Environment.md",
     "Python/1. Python - Roadmap for AL-ML.md",
     "Python/3. Python - Extra stuff.md",
     "Python/2. Python - Beginners.md",
-    "Python/Python for AI Engineering.md",
     "Extra/Useful Links.md",
     "Extra/Useful Apps.md",
     "Extra/Vocabularies.md",
@@ -204,7 +205,7 @@
     "Shotcut/Screenshot (74).png.~tmp",
     "Shotcut/Screenshot (75).png",
     "Shotcut/Screenshot (74).png",
-    "Shotcut",
+    "Extra/Shotcut",
     "db-fiddle (nayeem).zip",
     "Extra/Untitled.md",
     "Extra/Lists, Tuples, Dictionaries, Sets.md",
