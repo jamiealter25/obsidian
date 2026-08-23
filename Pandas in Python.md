@@ -119,3 +119,5 @@ df_new = df.dropna(subset=["column_name"])    # drop rows based on ONE specific 
 df = {	"Name" : ["Alice", "Bob", "Charlie"],
 		"Age" : [25, None, 35]  }
 ```
+
+#### Crosstab
