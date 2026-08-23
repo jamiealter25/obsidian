@@ -94,14 +94,16 @@ df.isnull().sum().sum()              # Total nulls in entire DataFrame
 df_new = df["column_name"].fillna(0)      # fills the cells with 0 zero
 ```
 
-- drop any row/ column with an empty cell
+- drop any row/ column
 ```python
 df_new = df["column_name"].dropna()           # drop any row with null value
+df_new = df.drop(columns='Cabin')             # drop any column
 df_new = df.dropna(subset=["column_name"])    # drop row with a specific column that has null value
 ```
 #### Measures of central tendency
-- `means`--> Summing up all the values in the data-set and dividing by the total number of values
-- `median` -->
+- `means` --> Summing up all the values and dividing by the total number of values
+- `median` --> Most common value
+- `mode` --> Arrange in order and pick the middle value
 ```python
 .mean()       # gives mean value
 .median()     # gives median value
