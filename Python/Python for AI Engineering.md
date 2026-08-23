@@ -1,4 +1,3 @@
-
 # List
 
 - Store many items in one place.

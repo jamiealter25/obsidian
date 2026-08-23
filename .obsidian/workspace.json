@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pandas in Python.md",
+                "file": "Python/Python for AI Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandas in Python"
+              "title": "Python for AI Engineering"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 390.3830261230469
   },
   "right": {
     "id": "de79fecd410eb368",
@@ -175,52 +174,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4624da103fbeeb32",
+  "active": "56689eaa49a427a1",
   "lastOpenFiles": [
-    "Python/Python for Beginners.md",
     "Pandas in Python.md",
-    "Python for AI Engineering.md",
-    "Python/Basic Python Projects.md",
-    "PS.md",
+    "Extra/Python & SQL connection.md",
+    "Shotcut/ShowTitleBars.png",
+    "Shotcut/Shotcut.md",
+    "Shotcut/MyLayout.png",
+    "Shotcut/AddLayout.png",
+    "SQL/SQL Basics.md",
+    "SQL.md",
+    "SQL",
+    "Extra/Dress up.md",
+    "Extra/Data Science & Machine Learning with Python.md",
+    "Python/5. Python - Basic Projects.md",
+    "Python/4. Python - Setup VS Code Environment.md",
+    "Python/1. Python - Roadmap for AL-ML.md",
+    "Python/3. Python - Extra stuff.md",
+    "Python/2. Python - Beginners.md",
+    "Python/Python for AI Engineering.md",
     "Extra/Useful Links.md",
     "Extra/Useful Apps.md",
     "Extra/Vocabularies.md",
-    "Extra/Dress up.md",
-    "Extra/Data Science & Machine Learning with Python.md",
     "Extra/Advance Obsidian.md",
-    "Shotcut/Shotcut.md",
-    "Shotcut/AddLayout.png",
     "Shotcut/add layout.png",
     "Shotcut/Screenshot (77).png",
     "Shotcut/MyLayout.png.~tmp",
-    "Shotcut/MyLayout.png",
     "Shotcut/Screenshot (76).png",
-    "Shotcut/ShowTitleBars.png",
     "Shotcut/Screenshot (74).png.~tmp",
     "Shotcut/Screenshot (75).png",
     "Shotcut/Screenshot (74).png",
     "Shotcut",
     "db-fiddle (nayeem).zip",
-    "Python/SQL Basics.md",
-    "Python/Others.md",
     "Extra/Untitled.md",
     "Extra/Lists, Tuples, Dictionaries, Sets.md",
     "Extra/Learning_Python_Merged.md",
     "Extra/Learning Python 2.md",
     "Extra/Learning Python 1.md",
     "Extra/1.md",
-    "Python/Python Roadmap for AI & Machine Learning.md",
     "Python/Python Basics.md",
-    "Python/Setup VS Code Python Environment.md",
     "Python/The 20% of Python You Should Master First.md",
-    "Python for AI-ML/Functions.md",
-    "Python for AI-ML/Basic error handling.md",
     "Untitled.base",
     "Untitled 1.base",
     "Questions",
     "Python for AI-ML",
     "Extra",
-    "Advance Obsidian",
     "2025-06-02 09-57-08.gif",
     "2025-06-02 10-04-30.gif",
     "Untitled.canvas"
