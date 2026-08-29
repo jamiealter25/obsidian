@@ -8,17 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08bae93902dec033",
+            "id": "8cf33c887edc5177",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/6. Python - AI Engineering.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "6. Python - AI Engineering"
+              "title": "New tab"
             }
           }
         ]
@@ -175,12 +171,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08bae93902dec033",
+  "active": "8cf33c887edc5177",
   "lastOpenFiles": [
+    "Git & Github/VsCode Git Sync.md",
+    "Git & Github/Push & Pull.md",
+    "Git & Github/Obsidian-VScode Git Sync Guide.md",
+    "Git & Github/🧾 Cheat Sheet.md",
+    "Git & Github/🧠 Common Words.md",
+    "Git & Github/⚠️ Issues & Solutions.md",
+    "Python/6. Python - AI Engineering.md",
     "Python/7. Python - Pandas.md",
     "Python/8. Python - Matplotlib.md",
     "Extra/plot_types.jpg",
-    "Python/6. Python - AI Engineering.md",
     "Python/4. Python - Setup VS Code.md",
     "Python/5. Python - Basic Projects.md",
     "Extra/Python & SQL connection.md",
@@ -211,11 +213,6 @@
     "db-fiddle (nayeem).zip",
     "Extra/Untitled.md",
     "Extra/Lists, Tuples, Dictionaries, Sets.md",
-    "Extra/Learning_Python_Merged.md",
-    "Extra/Learning Python 2.md",
-    "Extra/Learning Python 1.md",
-    "Extra/1.md",
-    "Python/Python Basics.md",
     "Untitled.base",
     "Untitled 1.base",
     "Questions",
