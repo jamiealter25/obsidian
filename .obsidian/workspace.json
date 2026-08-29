@@ -11,10 +11,14 @@
             "id": "8cf33c887edc5177",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Git & Github/Push & Pull.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Push & Pull"
             }
           }
         ]
@@ -76,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.92962646484375,
-    "collapsed": true
+    "width": 258.92962646484375
   },
   "right": {
     "id": "de79fecd410eb368",
