@@ -1,6 +1,5 @@
 
 **Install git**
-
 ### Create a local repository
 - open 'powershell'
 - go inside a file --> `cd <filename>`
