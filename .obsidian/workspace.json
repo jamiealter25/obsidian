@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git & Github/Push & Pull.md",
+                "file": "Python/3. Python - Extra stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Push & Pull"
+              "title": "3. Python - Extra stuff"
             }
           }
         ]
@@ -176,6 +176,11 @@
   },
   "active": "8cf33c887edc5177",
   "lastOpenFiles": [
+    "Environment Setup/4. Python - Setup VS Code.md",
+    "Environment Setup",
+    "Python/3. Python - Extra stuff.md",
+    "Python/2. Python - Beginners.md",
+    "Python/1. Python - Roadmap for AL-ML.md",
     "Git & Github/VsCode Git Sync.md",
     "Git & Github/Push & Pull.md",
     "Git & Github/Obsidian-VScode Git Sync Guide.md",
@@ -186,7 +191,6 @@
     "Python/7. Python - Pandas.md",
     "Python/8. Python - Matplotlib.md",
     "Extra/plot_types.jpg",
-    "Python/4. Python - Setup VS Code.md",
     "Python/5. Python - Basic Projects.md",
     "Extra/Python & SQL connection.md",
     "Extra/Shotcut/ShowTitleBars.png",
@@ -198,9 +202,6 @@
     "SQL",
     "Extra/Dress up.md",
     "Extra/Data Science & Machine Learning with Python.md",
-    "Python/1. Python - Roadmap for AL-ML.md",
-    "Python/3. Python - Extra stuff.md",
-    "Python/2. Python - Beginners.md",
     "Extra/Useful Links.md",
     "Extra/Useful Apps.md",
     "Extra/Vocabularies.md",
@@ -215,12 +216,10 @@
     "Extra/Shotcut",
     "db-fiddle (nayeem).zip",
     "Extra/Untitled.md",
-    "Extra/Lists, Tuples, Dictionaries, Sets.md",
     "Untitled.base",
     "Untitled 1.base",
     "Questions",
     "Python for AI-ML",
-    "Extra",
     "2025-06-02 09-57-08.gif",
     "Untitled.canvas"
   ]
