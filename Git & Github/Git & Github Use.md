@@ -7,7 +7,7 @@
 - create a folder --> `mkdir <filename>`
 - create a file --> `New-Type -ItemType File <filename.extension>`
 - make a git folder --> `git init`
-- 
+- make 
 ### Create a new repository on the command line
 
 echo "# form.html" >> README.md
