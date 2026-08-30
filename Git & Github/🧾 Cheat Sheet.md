@@ -72,7 +72,7 @@
 - `git revert <commit>` _Revert a commit by creating a new commit that undoes the changes of the specified commit._
     
 
-#### 🖥 **Terminal Basics**
+#### **Terminal Basics**
 
 - `ls` _List the files and directories in the current directory._
     

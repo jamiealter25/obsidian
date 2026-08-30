@@ -1,3 +1,14 @@
+
+**Install git**
+
+### Create a local repository
+- open 'powershell'
+- go inside a file --> `cd <filename>`
+- go back from a file --> `cd ..`
+- create a folder --> `mkdir <filename>`
+- create a file --> `New-Type -ItemType File <filename.extension>`
+- make a git folder --> `git init`
+- 
 ### Create a new repository on the command line
 
 echo "# form.html" >> README.md

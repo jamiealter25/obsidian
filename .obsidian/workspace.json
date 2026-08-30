@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/3. Python - Extra stuff.md",
+                "file": "Git & Github/Git & Github Use.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Python - Extra stuff"
+              "title": "Git & Github Use"
             }
           }
         ]
@@ -176,21 +176,21 @@
   },
   "active": "8cf33c887edc5177",
   "lastOpenFiles": [
-    "Environment Setup/4. Python - Setup VS Code.md",
-    "Environment Setup",
-    "Python/3. Python - Extra stuff.md",
-    "Python/2. Python - Beginners.md",
-    "Python/1. Python - Roadmap for AL-ML.md",
-    "Git & Github/VsCode Git Sync.md",
-    "Git & Github/Push & Pull.md",
-    "Git & Github/Obsidian-VScode Git Sync Guide.md",
     "Git & Github/🧾 Cheat Sheet.md",
     "Git & Github/🧠 Common Words.md",
     "Git & Github/⚠️ Issues & Solutions.md",
+    "Git & Github/Git & Github Use.md",
+    "Environment Setup/Obsidian-VScode Git Sync Guide.md",
+    "Extra/plot_types.jpg",
+    "Python/3. Python - Extra stuff.md",
+    "Environment Setup/4. Python - Setup VS Code.md",
+    "Environment Setup",
+    "Python/2. Python - Beginners.md",
+    "Python/1. Python - Roadmap for AL-ML.md",
+    "Environment Setup/VsCode Git Sync.md",
     "Python/6. Python - AI Engineering.md",
     "Python/7. Python - Pandas.md",
     "Python/8. Python - Matplotlib.md",
-    "Extra/plot_types.jpg",
     "Python/5. Python - Basic Projects.md",
     "Extra/Python & SQL connection.md",
     "Extra/Shotcut/ShowTitleBars.png",
