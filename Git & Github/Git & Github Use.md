@@ -34,6 +34,7 @@
 #### 6. Branching & Merging Operations (Task 5, 6 & 9)
 
 - **Create and switch to a new branch:** `git checkout -b <branch-name>` 
-- **Switch back to an existing branch:** `git checkout <branch-name>`
+- **Create and stay on the current branch)**: `git branch <branch-name>`
+- **Switch to any existing branch:** `git checkout <branch-name>`
 - **Merge a branch into your current branch:** `git merge <branch-name>`
 - **Delete a branch after merging:** `git branch -d <branch-name>`
