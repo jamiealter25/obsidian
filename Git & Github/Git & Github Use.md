@@ -37,4 +37,5 @@
 - **Create and stay on the current branch)**: `git branch <branch-name>`
 - **Switch to any existing branch:** `git checkout <branch-name>`
 - **Merge a branch into your current branch:** `git merge <branch-name>`
+- **Push a merged branch**: `git push origin main`
 - **Delete a branch after merging:** `git branch -d <branch-name>`
