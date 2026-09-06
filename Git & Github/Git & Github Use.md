@@ -6,10 +6,12 @@
 - **Create a new folder:** `mkdir <foldername>`
 - **Create a new file:** `ni <filename.extension>`
 
-#### 2. First-Time Setup (Run Once per Machine)
+#### 2. Configure and Sign into an account (Run Once per Machine)
 
 - **Set global username:** `git config --global user.name "Your Name"`
 - **Set global email:** `git config --global user.email "your.email@example.com"`
+- **Check the signed in account's credentials:** `git config --get-regexp user`
+- **Signs out of the Account:** `git credential-manager github logout <username>`
 
 #### 3. Local Repository Setup & Commits
 
@@ -42,7 +44,6 @@
 
 #### 7. Cloning Repositories
 
-- **Clone an existing repository:** `git clone <https://NewLink.git>`
+- **Clone an existing repository from remote:** `git clone <https://NewLink.git>`
 
-#### 8. Remove Saved GitHub Credentials
-- **Signs out the Account:** `git credential-manager github logout <username>`
+
