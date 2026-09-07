@@ -19,7 +19,7 @@
 - **Stage a specific file:** `git add <filename>`
 - **Stage all files:** `git add .`
 - **Commit staged files:** `git commit -m "Your descriptive commit message"`
-- **Rename default branch to main:** `git branch -M main` _(capital `-M` forces the rename)_
+- **Rename default branch from master to main:** `git branch -M main` _(capital `-M` forces the rename)_
 
 #### 4. Connecting & Managing Remote Repositories
 
@@ -36,7 +36,7 @@
 #### 6. Branching & Merging Operations (Task 5, 6 & 9)
 
 - **Create and switch to a new branch:** `git checkout -b <branch-name>` 
-- **Create and stay on the current branch)**: `git branch <branch-name>`
+- **Create and stay on the current branch**: `git branch <branch-name>`
 - **Switch to any existing branch:** `git checkout <branch-name>`
 - **Merge a branch into your current branch:** `git merge <branch-name>`
 - **Push a merged branch**: `git push origin main`
