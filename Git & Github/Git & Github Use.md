@@ -20,6 +20,7 @@
 - **Stage all files:** `git add .`
 - **Commit staged files:** `git commit -m "Your descriptive commit message"`
 - **Rename default branch from master to main:** `git branch -M main` _(capital `-M` forces the rename)_
+- **Check the current status of branch** `git status`
 
 #### 4. Connecting & Managing Remote Repositories
 
