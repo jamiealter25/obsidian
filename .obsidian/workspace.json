@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/5. Python - Basic Projects.md",
-                "mode": "preview",
+                "file": "Python/7. Python - Pandas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Python - Basic Projects"
+              "title": "7. Python - Pandas"
             }
           }
         ]
@@ -177,6 +177,7 @@
   },
   "active": "8cf33c887edc5177",
   "lastOpenFiles": [
+    "Python/5. Python - Basic Projects.md",
     "Python/7. Python - Pandas.md",
     "Git & Github/Git & Github Use.md",
     "Git & Github/🧾 Cheat Sheet.md",
@@ -192,7 +193,6 @@
     "Environment Setup/VsCode Git Sync.md",
     "Python/6. Python - AI Engineering.md",
     "Python/8. Python - Matplotlib.md",
-    "Python/5. Python - Basic Projects.md",
     "Extra/Python & SQL connection.md",
     "Extra/Shotcut/ShowTitleBars.png",
     "Extra/Shotcut/Shotcut.md",
